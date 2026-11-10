@@ -1,0 +1,2101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holloway's Real Estate Institute — Complete Audio Program Transcripts (Lessons 1–9, Tracks 01–57)</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #1d4ed8;
+      --accent-soft: #dbeafe;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      color: #fff;
+      padding: 2.5rem 1.5rem;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.85rem;
+    }
+    header p {
+      margin: 0.25rem 0;
+      color: #cbd5e1;
+    }
+    .top-actions {
+      margin-top: 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .action-btn {
+      display: inline-block;
+      background: #fff;
+      color: #0f172a;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+    .action-btn.secondary {
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+    .controls {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(248, 250, 252, 0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+    }
+    .search-row {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+    #search-input {
+      flex: 1;
+      padding: 0.65rem 1rem;
+      font-size: 1rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+    }
+    #match-count {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .filter-btn {
+      background: #fff;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .filter-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    main {
+      padding: 1.5rem;
+    }
+    .lesson-section {
+      margin-bottom: 2.5rem;
+    }
+    .lesson-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .lesson-header h2 {
+      margin: 0;
+      font-size: 1.4rem;
+      color: #1e3a8a;
+    }
+    .slide-btn {
+      background: var(--accent-soft);
+      color: var(--accent);
+      text-decoration: none;
+      padding: 0.4rem 0.85rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .track-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+    .track-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+    .track-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.78rem;
+      padding: 0.15rem 0.55rem;
+      border-radius: 4px;
+      margin-right: 0.5rem;
+      text-transform: uppercase;
+    }
+    .track-title {
+      display: inline;
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    .track-duration {
+      font-family: monospace;
+      font-size: 0.9rem;
+      color: var(--muted);
+      background: #f1f5f9;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+    }
+    .audio-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      background: #f8fafc;
+      padding: 0.5rem 0.75rem;
+      border-radius: 8px;
+      margin-bottom: 0.85rem;
+    }
+    audio {
+      height: 36px;
+      flex: 1;
+      min-width: 240px;
+    }
+    .audio-links {
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    .audio-links a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .track-note {
+      font-size: 0.88rem;
+      color: #92400e;
+      background: #fef3c7;
+      border-left: 3px solid #f59e0b;
+      padding: 0.4rem 0.75rem;
+      margin-bottom: 0.75rem;
+      border-radius: 4px;
+    }
+    .transcript-body p {
+      margin: 0.6rem 0;
+    }
+    @media print {
+      .controls, .audio-bar, .top-actions, .slide-btn { display: none !important; }
+      header { background: none; color: #000; padding: 0 0 1rem 0; border-bottom: 2px solid #000; }
+      header p { color: #333; }
+      .track-card { break-inside: avoid; border: 1px solid #ccc; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Holloway's Real Estate Institute — Complete Audio Program Transcripts</h1>
+      <p>Verbatim Transcripts of All 57 Audio Tracks Across Lessons 1–9 (Speaker: Mike Holloway)</p>
+      <div class="top-actions">
+        <a class="action-btn" href="Holloways_Real_Estate_Audio_Transcripts.docx" download>Download Word (.docx)</a>
+        <a class="action-btn secondary" href="Holloways_Real_Estate_Audio_Transcripts.md" download>Download Markdown (.md)</a>
+        <button class="action-btn secondary" onclick="window.print()">Print / Save as PDF</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="container">
+      <div class="search-row">
+        <input type="search" id="search-input" placeholder="Search transcripts across all 57 tracks (e.g., LARA, escrow, riparian, TRID, 1866, mills)...">
+        <span id="match-count">Showing 57 of 57 tracks</span>
+      </div>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-lesson="all">All 9 Lessons (57 Tracks)</button><button class="filter-btn" data-lesson="1">Lesson 1 (13)</button><button class="filter-btn" data-lesson="2">Lesson 2 (7)</button><button class="filter-btn" data-lesson="3">Lesson 3 (7)</button><button class="filter-btn" data-lesson="4">Lesson 4 (7)</button><button class="filter-btn" data-lesson="5">Lesson 5 (5)</button><button class="filter-btn" data-lesson="6">Lesson 6 (8)</button><button class="filter-btn" data-lesson="7">Lesson 7 (2)</button><button class="filter-btn" data-lesson="8">Lesson 8 (7)</button><button class="filter-btn" data-lesson="9">Lesson 9 (1)</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    
+            <section class="lesson-section" id="lesson-1" data-lesson="1">
+              <div class="lesson-header">
+                <h2>Lesson 1: Michigan Real Estate Law (Tracks 01–13)</h2>
+                <a class="slide-btn" href="slides/Lesson-1-Student-v2.ppt" download>Download Lesson 1 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-01" data-lesson="1" data-track="01">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 01</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">1:40</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track01.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track01.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track01.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track01.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Lesson 1, Michigan Real Estate Law. The state department that licenses and regulates real estate agents is the Department of Licensing and Regulatory Affairs. We&#x27;ll refer to this part of our state government as simply the Department, or LARA, which is an acronym for Licensing and Regulatory Affairs. That&#x27;s the way it&#x27;s done on the exam, and that&#x27;s the way we&#x27;ll do it within this audio program.</p>
+<p>One of the Department&#x27;s jobs is to enforce Michigan&#x27;s main license law, called the Michigan Occupational Code. Passed in 1980 as Public Act 299, the Occupational Code consolidated many of Michigan&#x27;s occupational license laws. It repealed many licensing laws and wrapped all the rules for practicing certain occupations up into one big law to make it easier to enforce. Another of the Department&#x27;s responsibilities is the licensing exam. They give and maintain the license exam.</p>
+<p>Now, the Michigan Occupational Code sets the rules for application requirements, lists actions considered violations, and provides for different penalties. The law also created boards to work very closely with the Department. There&#x27;s a board for each occupation. The Cosmetology Board deals with cosmetology licensees, the Board of Real Estate Brokers and Salespersons deals with real estate licensees, and so on. Each of these boards is made up of nine people, six of which are licensed and three unlicensed members who represent the general public. The Board assists the Department in interpreting the licensing law. The Board reviews petitions from applicants who have been denied a license, and they also aid the Department in investigations of possible license violations.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-02" data-lesson="1" data-track="02">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 02</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">2:30</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track02.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track02.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track02.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track02.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Michigan has three types of real estate license: broker&#x27;s license, associate broker&#x27;s license, and salesperson&#x27;s license. Only a standard broker&#x27;s license can be issued to a non-living entity like a corporation or an LLC. Broker&#x27;s licenses, associate broker&#x27;s licenses, can only be issued to people, human beings.</p>
+<p>Now, the Occupational Code, our main license law, defines a broker as someone who does any of the following acts for another person and for compensation regarding real estate: sell or offer to sell, buy or offer to buy, listing, leasing, negotiating a mortgage of real estate, negotiation for the construction of a building, and negotiating for the sale of a business or business opportunity that includes real property in the transaction. If you want to do any of these things for somebody else and for a fee, you have to have a broker&#x27;s license.</p>
+<p>An associate broker is someone who has an associate broker&#x27;s license and is either principal or non-principal. An individual who has an associate broker&#x27;s license and also has an ownership interest or a position of authority in the company is said to be a principal associate broker. If someone has an associate broker&#x27;s license and does not have an ownership interest or a position of authority in the company, then they&#x27;re considered non-principal associate brokers.</p>
+<p>A salesperson is someone who has a salesperson&#x27;s license and works as an agent for the brokerage. They can do anything that a broker or associate broker can do, only with permission of the broker.</p>
+<p>There are a few exceptions to the licensing requirements, such as a person who is selling their own property. An owner can sell up to five of their own properties in any 12-month period. Also exempt is someone who is selling under a court order, an attorney-in-fact, an attorney-at-law. Also exempt are auctioneers, and licensed or registered mortgage brokers, mortgage lenders, or mortgage servicers.</p>
+<p>Applicants for a salesperson&#x27;s license must take an approved 40-hour real estate class, pass the state licensing examination, pay the license fee, and electronically be accepted by their broker. Applicants for a broker or associate broker&#x27;s license must have taken 90 hours of approved real estate classes, had three years of full-time real estate experience or its equivalent, and pass the state licensing examination, pay the license fee, and file a license application.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-03" data-lesson="1" data-track="03">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 03</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">4:03</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track03.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track03.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track03.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track03.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Each licensee receives a pocket card which must be kept with them when working in real estate. The Department has the power to issue, deny, suspend, revoke, or place a limitation on a license. They also have the power to assess fines not to exceed $10,000, censure, or place a license on probation, and require a licensee to post a bond or cash deposit not to exceed $5,000.</p>
+<p>Some of the practices which are illegal and subject to the penalties are fraud, lack of good moral character, gross negligence, false advertising, or incompetence. It&#x27;s also illegal to act for more than one party in the same transaction without the knowledge and consent of all parties involved in writing.</p>
+<p>Licensees must account for and remit any money that they have collected which belongs to others. A salesperson that collects a deposit must give the deposit to his or her employing broker immediately. The broker must then place the deposit into the company&#x27;s trust account within two banking days after the offer is accepted by all parties involved. If the offer was signed by the seller on Monday afternoon, for example, the broker would only have through Wednesday to deposit those funds—two banking days. A licensee can also act as a courier of that deposit directly to a closing entity. If the brokerage chooses to do this, they do not have to keep a trust account.</p>
+<p>Brokers must keep a record, a journal, and a ledger to account for escrow funds. The journal lists each deposit and each withdrawal from the trust account and has a running balance which shows how much money is in that account at all times. Additionally, there&#x27;s a ledger card or file for each transaction which shows the moneys being held for that specific buyer or seller, or landlord or tenant. A broker may keep up to $2,000 of their own money in their trust account to keep the account open when funds grow low.</p>
+<p>The Department may place a limitation on a license. The Department can restrict the function, a specific time, or geographic area of a licensee. Additionally, they can require that restitution be made, and regular financial statements, proof of competence, or again a bond or cash deposit not to exceed $5,000, and/or regular reports be submitted to the Department. The licensee could also be required to have all of his or her contracts reviewed by an attorney, and/or the licensee can be required to place escrow funds in an account which can only be disbursed under certain conditions.</p>
+<p>A broker can only do business and advertise under the name that appears on the license itself, exactly as it appears on the license itself. So a broker who wishes to use an assumed name, such as Roger&#x27;s Realty or Holloway&#x27;s Realty, would need to have that broker&#x27;s license issued in that name. To do this, you&#x27;d send a copy of the certificate of assumed name—we call it a DBA here in Michigan—certified by the county clerk in the county where the certificate is on file, or if you&#x27;re a corporation or an LLC and like to do business under its name, you just send whatever documents are used to create that LLC. For a corporation, it would be the Articles of Incorporation, for example. You send that in to the Department and they&#x27;ll issue your broker&#x27;s license in the name of that LLC, corporation, or DBA form.</p>
+<p>All licensees must take 18 hours of continuing education to renew their three-year license, two hours of which must be core information covering topics relevant to changes in economic conditions, laws, rules, and court cases regarding real estate. This part is referred to as the law update. You must take a law update every year. Annual continuing education requirements must be completed by October 31st of each year. If a licensee is at least 60 days late on meeting the licensing requirements, the Department can fine them up to $3,000 and require an additional eight hours of continuing education as punishment. That&#x27;s harsh.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-04" data-lesson="1" data-track="04">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 04</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">3:52</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track04.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track04.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track04.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track04.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>If a licensee allowed their license to lapse, they may get relicensed within three years by simply taking the continuing education classes they missed and requesting relicensure at www.michigan.gov/icola. iCOLA stands for Internet Commercial and Occupational Licensing Application. After the three-year period, the applicant must request a relicensure, pay the license fee, and meet one of the following requirements: complete six hours of continuing education for each of the years the license was lapsed, or retake the 40-hour fundamentals course, or retake the salesperson&#x27;s exam.</p>
+<p>Salespeople can transfer from one broker to another by filing a transfer form and paying a fee. Associate brokers are either principals of the company—principal associate brokers—or non-principal associate brokers. Non-principal associate brokers can transfer from one company to another by using a similar method to the salesperson&#x27;s transfer; instead of paying a transfer fee, however, they pay a new license fee. Principal associate brokers cannot transfer. One reason is you&#x27;re allowed to have as many principal associate broker&#x27;s licenses with different companies as you want, so you don&#x27;t need to transfer it, you just get a new one.</p>
+<p>Salespeople who wish to quit working for their broker must send that broker a written notice. The broker then has five days in which to mail the salesperson&#x27;s license to the Department by certified mail. On the other side of that coin, a broker can fire a salesperson by sending a written notice to the salesperson&#x27;s last known address and then send a copy of that notice to the Department by certified mail within five days.</p>
+<p>The Department will investigate a licensee&#x27;s behavior if they receive a complaint or on its own motion. And informal conferences are set up to resolve complaints against licensees by trying to simply reach an agreement between the person filing the complaint and the person to which the complaint is against. Often a board member will attend. If an agreement is reached, the Board meets to determine whether or not to accept it. A board member who attended the conference is not allowed to vote on the decision. Now, some licensees waive the right to an informal conference and go right to a formal hearing. If the Board decides not to accept the agreement reached in an informal conference, also then the case goes to a formal hearing. An administrative law judge hears the case and determines if a violation has been committed. They send a report to the Board, and the Board reviews the case and sets the penalty. Remember, the Board always sets the penalty unless it&#x27;s jail time, and only a judge can put you in jail. Now, even one violation of the licensing act could result in any of the penalties previously listed.</p>
+<p>If a broker&#x27;s license is suspended or revoked, he or she must send his or her license and pocket card to the Department along with all of his salesperson&#x27;s and branch office licenses as well. The Department wants all the paper bits back. All the salesperson&#x27;s licenses are automatically suspended until they find a new broker to work for.</p>
+<p>Every Michigan broker must have an office within the state of Michigan. Brokers may have as many branch offices as desired, but each must have a branch office license. If a branch office is more than 25 miles from the city limits of the main office, it must have its own associate broker to directly manage it.</p>
+<p>A licensed real estate salesperson cannot collect compensation for listing, selling, leasing, etc., from anyone other than his or her employing broker. Licensees must have prior written consent from their client if they are to receive compensation in addition to their regular commission, such as for using a title insurance company or an abstract company, a mortgage company, or a home warranty company.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-05" data-lesson="1" data-track="05">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 05</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">3:07</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track05.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track05.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track05.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track05.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>All advertising must include the broker&#x27;s name as licensed. An ad which does not clearly indicate that the real estate company is involved is a blind ad and is illegal. All advertising done by a salesperson must be under his or her broker&#x27;s supervision and in the name of that broker as licensed. Advertising by a team or an individual licensee must make the name of the brokerage equal to or greater in size than that of the team or the licensee. Property advertised for sale which is owned by a salesperson which is not his or her principal residence must be advertised in a broker&#x27;s name. All property owned by a broker or associate broker advertised for sale or lease must clearly indicate that the property is being offered by a broker or associate broker; normally it just simply says broker-owned.</p>
+<p>If a licensee would like to buy real estate, he or she must disclose the fact to the seller that he or she is licensed, and also disclose if he or she is receiving any of the commission. This must be done as an individual disclosure before the purchase agreement is signed. A salesperson can only sell their principal residence as a For Sale By Owner. Any other property that they want to sell—a cabin up north, for example—must go through a broker; it must be listed. If a licensee is selling property in which he or she holds an interest as part owner, option, etc., this must be disclosed to any buyer in advance of the purchase agreement.</p>
+<p>The seller must receive a true copy of the signed listing agreement. Listings must have a definite expiration date and a non-discrimination clause, and net listings are illegal. Buyers must get a true copy of the signed purchase agreement. The licensee then presents the offer to the seller and obtains the seller&#x27;s signature if they accept it. The buyer then gets a second copy after the sellers have signed. As stated in class, he signs, she signs, and he signs again, and then and only then is it a valid purchase agreement. There&#x27;s a last copy that&#x27;s given to the broker.</p>
+<p>Licensees must recommend to the buyer that a buyer receive a title insurance policy from the seller when the buyer signs the purchase agreement; it&#x27;s a statutory recommendation.</p>
+<p>Salespeople cannot accept checks made out to them personally for escrow funds. Any deposits received by a salesperson must be given to his or her broker immediately or as soon as possible. The broker must deposit these funds again within two banking days in a non-interest-bearing demand account. A broker or associate broker must sign checks drawn from the trust account. Co-signatories may be used; however, the signature of a broker or associate broker must accompany the signature. If the brokerage keeps a trust account, then they must keep a journal and a ledger to keep track of deposits and withdrawals. Again, the journal keeps a chronological record of the deposits and withdrawals and keeps a running balance; the ledger keeps track of the deposits and withdrawals as they affect each transaction or listing.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-06" data-lesson="1" data-track="06">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 06</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">1:38</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track06.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track06.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track06.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track06.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>This finally ends the Occupational Code. Now on to other Michigan laws relating to real estate which may come up on your state exam.</p>
+<p>The Truth in Renting Act forbids clauses in residential leases that would lessen the tenant&#x27;s rights. It requires that the lease agreement contain the name and address of the landlord and requires the following disclosure: &quot;NOTICE: Michigan law establishes rights and obligations to rental agreements. This agreement is required to comply with the Truth in Renting Act. If you have a question about the interpretation or legality of a provision of this agreement, you may want to seek assistance from an attorney or other qualified person.&quot;</p>
+<p>The Landlord-Tenant Relationship Act addresses the relationship between the landlord and the tenant as it concerns the security deposit. It might be called the Security Deposit Act on the exam. This law requires the use of commencement and termination inventory checklists. The security deposit is limited to one and one-half times a month&#x27;s rent. It includes any required prepayment of rent other than rent for the first rental period. And the security deposit can only be used for the following: to reimburse the landlord for actual damages to the rental unit which are the direct result of conduct not considered normal habitation—so it does not include wear and tear—back rent, rent due for premature termination of the lease agreement by the tenant, and the tenant&#x27;s unpaid utility bills. Those are the four things to which a landlord can keep the security deposit. The most a tenant can receive if the landlord violates the law is double the security deposit retained.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-07" data-lesson="1" data-track="07">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 07</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">0:53</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track07.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track07.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track07.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track07.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>The Mortgage Broker, Mortgage Lender, and Mortgage Servicer Licensing Act. This law requires persons who make, broker, or service one-to-four-family residential first mortgage loans secured by Michigan property to be licensed or registered with the Department of Insurance and Financial Services, OFIS. So places like banks and savings and loans must be licensed under this law. There is an exemption from the act for real estate licensees: real estate licensees who act as mortgage brokers in connection with a real estate sale without compensation beyond customary commission do not have to be licensed. Also, mortgage servicers—licensees who are acting as mortgage servicers who service only 75 or fewer land contracts for one-to-four-family residential dwellings, or 10 or fewer land contracts that include the collection of money for payment of taxes and insurance and stuff—then they don&#x27;t have to be licensed.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-08" data-lesson="1" data-track="08">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 08</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">0:51</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track08.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track08.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track08.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track08.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>The Michigan State Housing Development Authority, commonly just referred to by pronouncing the acronym MSHDA or &quot;Mish-da.&quot; MSHDA&#x27;s purpose is to address the housing needs of Michigan&#x27;s low and moderate-income citizens. MSHDA sells tax-exempt bonds to private investors, then they take that money to provide guaranteed loans to low and moderate-income citizens. These guaranteed loans help Michigan citizens get loans that they normally wouldn&#x27;t be qualified for. On your licensing exam, it&#x27;s very likely you&#x27;ll get questions which address the rules for MSHDA&#x27;s loans. Here are a few of the rules you may need to know: the loans are for low and moderate—not just low, but low and moderate-income people; borrowers must occupy the property as their principal residence; and no MSHDA funds are available for refinancing. This is not a first-time homebuyers program.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-09" data-lesson="1" data-track="09">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 09</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">0:16</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track09.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track09.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track09.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track09.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>The Michigan Uniform Securities Act. If you want to sell financial products that include risk, like stocks, bonds, securities, then you have to be licensed under this law. This includes REITs, or Real Estate Investment Trusts.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-10" data-lesson="1" data-track="10">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 10</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">0:24</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track10.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track10.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track10.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track10.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Uniform State Antitrust Act. Certain types of trade restraints are so injurious to competition that no justification can ever be advanced to sustain them, and they&#x27;re defined as per se or unreasonable. This law forbids four antitrust practices: price fixing, boycotts, territorial or customer allocations, and tying agreements.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-11" data-lesson="1" data-track="11">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 11</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">0:18</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track11.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track11.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track11.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track11.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>The Dormant Mineral Rights Act. This applies to mineral rights that have been separated from the surface ownership. The act automatically terminates mineral interests that are not shown of record within the past 20 years or have not had permits or production occur within the last 20 years.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-12" data-lesson="1" data-track="12">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 12</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">0:33</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track12.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track12.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track12.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track12.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>The Land Division Act, formerly the Subdivision Control Act, regulates the subdividing of land. Subdividing requires numerous approvals, adequate drainage, streets and roads, and sidewalks to be put in. If a person would like to break up their large parcel of land into smaller pieces and not be forced to subdivide, then they must follow the rules of the Land Division Act as to how many parcels they create and even the size and shape of these parcels. If a person who purchases one of the newly created parcels wants to break their land up, they must wait 10 years and break it up under a different formula.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-13" data-lesson="1" data-track="13">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 13</span>
+                      <h3 class="track-title">Lesson 1, Michigan Real Estate law</h3>
+                    </div>
+                    <span class="track-duration">0:23</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track13.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track13.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track13.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track13.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>The Michigan Right to Farm Act provides that farmers may defend themselves against complaints or lawsuits filed by neighbors who find that farm operations&#x27; odors, dust, and noise a nuisance. If the farmer follows established practices, are operating in a commercial capacity, and are within proper zoning, they&#x27;re immune from such lawsuits. End of Lesson 1.</p>
+                  </div>
+                </article>
+                
+            </section>
+            
+            <section class="lesson-section" id="lesson-2" data-lesson="2">
+              <div class="lesson-header">
+                <h2>Lesson 2: Brokerage and Marketing (Tracks 14–20)</h2>
+                <a class="slide-btn" href="slides/Lesson-2-Student-v2.ppt" download>Download Lesson 2 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-14" data-lesson="2" data-track="14">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 14</span>
+                      <h3 class="track-title">Lesson 2, Brokerage and Marketing</h3>
+                    </div>
+                    <span class="track-duration">0:34</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track14.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track14.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track14.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track14.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Lesson 2, Brokerage and Marketing. When a person appoints another person to act in his or her behalf, an agency relationship is created. The principal authorizes the agent to act in the principal&#x27;s behalf. The agent owes a fiduciary duty to his or her principal. Another term for principal is client; another word for agent is fiduciary. Real estate brokers are usually special agents, because we&#x27;re hired to do one specific special task, such as find a buyer for one piece of property.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-15" data-lesson="2" data-track="15">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 15</span>
+                      <h3 class="track-title">Lesson 2, Brokerage and Marketing</h3>
+                    </div>
+                    <span class="track-duration">0:34</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track15.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track15.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track15.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track15.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>In Michigan, we have disclosure regarding real estate agency relationships. It&#x27;s a form in which an agent must disclose which role they will play in a relationship: seller&#x27;s agent, buyer&#x27;s agent, dual agent, or designated agent. A dual agency is created when the agent works for both the buyer and the seller. A dual agency is legal only with prior written consent from both parties. In a dual agency, there is no customer; there are two clients.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-16" data-lesson="2" data-track="16">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 16</span>
+                      <h3 class="track-title">Lesson 2, Brokerage and Marketing</h3>
+                    </div>
+                    <span class="track-duration">1:26</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track16.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track16.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track16.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track16.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>A contract is an agreement between two parties to do or refrain from doing something. The contract must have a legal purpose, and the parties must be of legal age and not acting under duress or undue influence. There must be an offer and an acceptance. There must be consideration in order for the contract to be binding and enforceable. Once an offer has been made, the offeree can accept or reject the offer. Sometimes, the offeree rejects the offer and makes a counteroffer.</p>
+<p>The Statute of Frauds tells us which contracts are required to be in writing. It has nothing to do with fraud. Anyone of legal age can give someone a power of attorney document, which would authorize the designated person to act in his or her behalf. The person authorized to act is called an attorney-in-fact.</p>
+<p>A voidable contract is one which is binding on only one party, but the other party could choose to enforce the contract or void it. An example of a voidable contract is one that&#x27;s signed by a minor.</p>
+<p>If one party breaches a contract, the other party can go to court and ask for three different legal remedies. Rescission has the court do away with the contract, like it never happened. Compensatory damages would require the breaching party to pay financial damages. Specific performance would require the breaching party to go through with the contract—for example, force the breaching party to sell the house.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-17" data-lesson="2" data-track="17">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 17</span>
+                      <h3 class="track-title">Lesson 2, Brokerage and Marketing</h3>
+                    </div>
+                    <span class="track-duration">3:03</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track17.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track17.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track17.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track17.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Here&#x27;s some important terminology.</p>
+<p><strong>Liquidated damages</strong>: Sometimes the parties agree in advance to certain liquidated damages as compensation in case of a default in the future. For example, sales contracts often stipulate that if the purchaser defaults, he or she will forfeit the deposit as liquidated damages.</p>
+<p><strong>Execute</strong>: To execute a contract means to sign it.</p>
+<p><strong>Executory contract</strong>: A contract that has not yet been fully completed or performed; they&#x27;re still in the middle of it.</p>
+<p><strong>Executed contract</strong>: A contract in which all parties have fulfilled their promises and therefore have performed the contract is an executed contract; it&#x27;s all done.</p>
+<p><strong>Acknowledged</strong>—this one&#x27;s important: If a person signed a document in front of an authorized official, the official will sign and place his or her seal on the document. The document is said to be acknowledged. Slang for acknowledged would be notarized.</p>
+<p><strong>Time is of the essence</strong>: If time is of the utmost importance in a contract, it should have a clause that states that time shall be the essence of this contract. If it does not have a time is of the essence clause, a judge could allow each party a reasonable amount of extra time to perform.</p>
+<p><strong>Tort</strong>: Tort is a civil wrong for which the law allows an injured party to recover damages from a wrongdoer.</p>
+<p><strong>Assignment</strong>: A party to a contract can usually transfer his or her interest or obligation to another. This is called assignment of the contract. In essence, assignment is transferring of all of someone&#x27;s interest or obligation in a contract to somebody else. They&#x27;re out of it. It&#x27;s the same contract, same terms, same time limits, but a new person replaces an old one. This is opposed to a <strong>subcontract</strong>. This is when one party transfers just a portion of their interest or obligation in a contract to somebody else.</p>
+<p><strong>Novation</strong>: This occurs when a new contract is created to replace a previous one.</p>
+<p><strong>Parol evidence rule</strong>, or verbal evidence rule: It&#x27;s an evidence rule of law that states oral arguments that modify a written contract will be inadmissible in court for the purpose of contradicting a written contract.</p>
+<p><strong>Lis pendens</strong>: A Latin term which describes a recorded notice that a lawsuit is pending upon a parcel of land. It gets recorded at the Register of Deeds office in the county where the land is located.</p>
+<p><strong>Puffing</strong>: Statements made by salespersons or in advertising that express an obvious exaggeration or a personal opinion. It represents opinions instead of facts—statements such as &quot;This is the nicest house on the whole block,&quot; or &quot;You&#x27;ll love this kitchen, it has miles of countertop.&quot; Puffing is allowed.</p>
+<p><strong>Color of title</strong>: Something which gives an indication of good title, but due to certain conditions or defects, it is not, in fact, good title.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-18" data-lesson="2" data-track="18">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 18</span>
+                      <h3 class="track-title">Lesson 2, Brokerage and Marketing</h3>
+                    </div>
+                    <span class="track-duration">4:17</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track18.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track18.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track18.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track18.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Real estate contracts. The listing agreement is a contract between the broker and the seller. In a listing agreement, the seller agrees to pay the broker a commission if the broker can find or produce a ready, willing, and able purchaser to buy the property at the seller&#x27;s price and terms. The amount of the commission is agreed upon by the broker and the seller; there&#x27;s no entity that sets the commission.</p>
+<p>There are three different types of listing.</p>
+<p><strong>The open listing</strong>: The seller can list with as many brokers as they want. Each of these brokers has the opportunity to find a buyer and earn a commission. At the same time, the seller can find the buyer and not pay a commission—in other words, sell the property as a For Sale By Owner.</p>
+<p>Next is <strong>the exclusive or exclusive agency listing</strong>: The seller agrees to list with only one broker, and if that broker finds a buyer, then they get a commission. But the seller still retains the right to find the buyer themselves and not pay a commission.</p>
+<p>The third and most common listing is <strong>the exclusive right to sell listing</strong>—the one with the longest name is the most common. With this listing, no matter who finds the buyer, the listing broker gets paid a commission. This is the one used by most brokers because it offers them the most protection.</p>
+<p>The next real estate contract is a <strong>purchase agreement</strong>. The purchase agreement is between the buyer and the seller. The real estate agent is not a party to this agreement; the agent just helps their client to negotiate the best deal possible. In this agreement, the buyer agrees to purchase the property at a specified price and at specified terms. They usually give the real estate agent a deposit to show their good faith. The real estate agent gives the deposit to the broker, who holds the deposit in a trust account or transfers it to the closing entity. The agent takes the offer to the seller, and the seller can either accept or reject the offer. The seller can reject the offer and make a counteroffer. If the seller agrees to sell the property to the purchasers at the specified price and terms, the seller signs the sales agreement, and the sales agent notifies the buyer of the seller&#x27;s acceptance. This contract is now a binding agreement. As we said in class, he signs, and then she signs, and then the last copy of the purchase agreement goes to the broker.</p>
+<p>Two other real estate contracts are the <strong>option</strong> and <strong>right of first refusal</strong>. These are similar to one another, but there&#x27;s one big difference: the option has set price and set terms, and the right of first refusal does not. An option is an agreement in which the optionor, the seller, gives an optionee, the buyer, the right to purchase the property at set price, set terms, and within a certain period of time. The option restricts the optionor, while on the other hand, the optionee is under no obligation to purchase the property; they simply have the option to do so. A right of first refusal is a right to buy the property if the seller decides to sell it in the future. If they decide to sell the property in the future, they have to offer it to the person with the right of first refusal first; they have the right to refuse to buy it first.</p>
+<p>The seller needs to give the purchaser evidence that the seller is indeed the owner of the property. Either an <strong>abstract</strong> or a <strong>title insurance policy</strong> is used. An abstract is a description of all of the recorded documents that affect that specific piece of property and shows the recorded chain of title. An abstract posted to date will show who is the current recorded title holder and also shows any recorded liens, easements, etc. Abstracts are not used very much anymore. The more common method of proving ownership is to purchase a title insurance policy for the buyers. The title insurance company will review the recorded chain of title, and if it looks sound, the company will insure that there is good title. If they&#x27;re wrong, and if the title defect was one that was covered by the policy, the title insurance company will try to correct the defect or pay the policyholders the face amount of the policy. This is usually the purchase price.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-19" data-lesson="2" data-track="19">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 19</span>
+                      <h3 class="track-title">Lesson 2, Brokerage and Marketing</h3>
+                    </div>
+                    <span class="track-duration">0:51</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track19.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track19.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track19.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track19.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>If the buyers are having the bank finance the sale, the bank will also want protection against any clouds on the title. Most banks require the borrower to purchase a mortgage title insurance policy. A mortgage title policy is in the amount of the mortgage debt, and the bank is the beneficiary.</p>
+<p><strong>Surveys</strong>: There are two kinds of surveys. One is a stake survey, in which a surveyor actually comes out and stakes and marks all the boundaries. But we can also have a mortgage survey, and this does three things for the bank: checks to see if there are structures on the land, checks to see if there are any encroachments—things that hang over the lot line—and makes sure that the legal description is correct.</p>
+<p>Expenses such as taxes sometimes need to be divided between the buyer and the seller.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-20" data-lesson="2" data-track="20">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 20</span>
+                      <h3 class="track-title">Lesson 2, Brokerage and Marketing</h3>
+                    </div>
+                    <span class="track-duration">0:34</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track20.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track20.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track20.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track20.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>These items are usually prorated. Prorated, or prorating, is the dividing of a fee based on time. The seller will be responsible for the expenses for the time the seller had owned the property, and the buyer will be responsible for any expenses for the day of the closing and beyond.</p>
+<p>The settlement statement is a financial accounting of the closing. Both the buyer and seller get copies of their individual settlement statements signed by the listing broker, because the listing broker is responsible for the closing.</p>
+<p>End of Lesson 2.</p>
+                  </div>
+                </article>
+                
+            </section>
+            
+            <section class="lesson-section" id="lesson-3" data-lesson="3">
+              <div class="lesson-header">
+                <h2>Lesson 3: Legal Descriptions, Real Estate Characteristics, and Valuation (Tracks 21–27)</h2>
+                <a class="slide-btn" href="slides/Lesson-3-Student-v2.ppt" download>Download Lesson 3 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-21" data-lesson="3" data-track="21">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 21</span>
+                      <h3 class="track-title">Lesson 3, Legal descriptions legal Characteristics and Valuation</h3>
+                    </div>
+                    <span class="track-duration">0:33</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track21.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track21.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track21.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track21.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Lesson 3, Legal Descriptions, Real Estate Characteristics, and Valuation. There are two basic types of property: real property and personal property. Land is real property, but there are many items that are also real property. These items are usually attached to the land in such a way that when the title to that land is transferred from one person to another, these items are transferred automatically—for example, the house. This would include such items as a building, a fence, a driveway, etc. These are all considered to be real property.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-22" data-lesson="3" data-track="22">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 22</span>
+                      <h3 class="track-title">Lesson 3, Legal descriptions legal Characteristics and Valuation</h3>
+                    </div>
+                    <span class="track-duration">1:04</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track22.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track22.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track22.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track22.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Personal property, on the other hand, are items that are usually movable, that are not annexed to or part of the land. This would typically include items such as a bed, desk, lamp—things like this.</p>
+<p>Since real estate is not movable, we cannot physically give it from the seller to the buyer. It&#x27;s the rights in the property which are actually transferred.</p>
+<p>Anyone that has rights to a certain property should make sure that he or she has given notice to the public of these rights. And there are two kinds of notice, basically: <strong>constructive notice</strong>, which is given by public records, like recording a deed at the Register of Deeds office; or <strong>actual notice</strong>, knowledge that the public gains based on what they see, hear, read, or observe. If you actually see somebody in possession of property, you&#x27;re giving them actual notice that they have some kind of interest in the property.</p>
+<p>One way of describing property is with a street address, but that isn&#x27;t very precise. We have other, more descriptive methods we call legal descriptions.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-23" data-lesson="3" data-track="23">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 23</span>
+                      <h3 class="track-title">Lesson 3, Legal descriptions legal Characteristics and Valuation</h3>
+                    </div>
+                    <span class="track-duration">1:14</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track23.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track23.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track23.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track23.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>There are three basic types of legal description: government survey, recorded plat, and metes and bounds.</p>
+<p>The <strong>government, or rectangular, survey</strong> uses imaginary intersecting lines that form squares called sections. An example would be: North 1/2 of Section 12, T2N, R7W, Ingham County, State of Michigan. That&#x27;s an example of a government survey legal description.</p>
+<p>If the property has been subdivided, then the developer records a drawing with all the streets and lots drawn in. This is called a <strong>plat</strong>. The lots are then numbered or lettered, and the individual blocks are then numbered or lettered—for example, Lot 4 of Block B of Holloway Hills Subdivision.</p>
+<p>The third type of legal description is <strong>metes and bounds</strong>. This describes how to locate one of the corners of the property and then describes each of the boundaries. For example: Beginning at a point 500 feet east of the center of the intersection of M-100 and Crowfield Road, thence east 200 feet, thence south 420 feet, then west 200 feet, then north 420 feet back to the point of beginning, or POB.</p>
+<p>Real estate, or property, taxes are ad valorem,</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-24" data-lesson="3" data-track="24">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 24</span>
+                      <h3 class="track-title">Lesson 3, Legal descriptions legal Characteristics and Valuation</h3>
+                    </div>
+                    <span class="track-duration">1:11</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track24.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track24.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track24.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track24.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>which means that they&#x27;re based on the value of the property; they&#x27;re not based on the size. The first step in calculating property taxes is to come up with the <strong>assessed value</strong>. To do this, one takes the market value and then multiplies this by the property&#x27;s assessment ratio. This is a percentage assigned by the government. For example, if property has a market value of $100,000 and is assessed at 40%, then to find the assessed value, it would be done as such: $100,000 multiplied by .40 for 40%, that makes an assessed value of $40,000.</p>
+<p>Taxes are then expressed as <strong>mills</strong>. Mills are one-tenth of one cent. So if you wanted to write one cent as a decimal, it would be seen as .01. One-tenth of a cent, one mill, would be .001. You&#x27;re just adding an extra space to the right of the decimal. So the formula for calculating property taxes would be assessed value multiplied by the number of mills.</p>
+<p><strong>Economic life</strong>: The period of time in which the property can be profitably used is called its economic life.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-25" data-lesson="3" data-track="25">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 25</span>
+                      <h3 class="track-title">Lesson 3, Legal descriptions legal Characteristics and Valuation</h3>
+                    </div>
+                    <span class="track-duration">0:45</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track25.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track25.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track25.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track25.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p><strong>Utility value</strong>: The value to the owner, the user. How you&#x27;re going to utilize the property determines its value to the buyer in many instances.</p>
+<p><strong>Obsolescence</strong>: This term means an improvement, a structure, is out of date; it&#x27;s not modern.</p>
+<p>An <strong>appraisal</strong> is a professional opinion of value. There are many kinds of value an appraiser may be asked to find, such as market value, assessed value, salvage value, etc. The appraiser analyzes and defines what needs to be appraised and what type of value needs to be found. <strong>Market value</strong> is the most common value sought. Market value is the amount that a willing buyer will pay a willing seller without any unusual circumstances</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-26" data-lesson="3" data-track="26">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 26</span>
+                      <h3 class="track-title">Lesson 3, Legal descriptions legal Characteristics and Valuation</h3>
+                    </div>
+                    <span class="track-duration">1:09</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track26.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track26.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track26.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track26.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>in an arm&#x27;s-length transaction.</p>
+<p><strong>Depreciation</strong> is a loss of value due to any cause. There are three causes of depreciation. The most common is <strong>physical deterioration</strong>, which is caused by wear and tear or deferred maintenance. <strong>Functional obsolescence</strong>, on the other hand, is not caused by things that have deteriorated, but by things that are simply out of date or out of style. A water heater that&#x27;s broken is an example of physical deterioration, but a water heater that&#x27;s too small is an example of functional obsolescence. These two types of depreciation involve factors that are within the property&#x27;s lines. <strong>Economic obsolescence</strong>, though, refers to factors outside the property&#x27;s boundary lines, such as a bad neighborhood.</p>
+<p>Now, depreciation is either <strong>curable</strong> or <strong>incurable</strong>, depending on whether the cost to fix the problem is equal to or lesser than the increase in value once the property has been fixed.</p>
+<p>There are four different approaches to appraisal, and each one works well for different types of property.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-27" data-lesson="3" data-track="27">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 27</span>
+                      <h3 class="track-title">Lesson 3, Legal descriptions legal Characteristics and Valuation</h3>
+                    </div>
+                    <span class="track-duration">1:11</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track27.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track27.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track27.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track27.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>In using the <strong>market comparison approach</strong>, the appraiser looks at several similar properties. They then adjust for any differences in these comparables so that they are as close to the subject property as possible. If the subject property has a two-car garage, the comparables are usually adjusted to what they would have sold for if they had a two-car garage. This approach is usually the only approach that can be used for vacant land, and is the best approach for use for typical properties with available similar comparables, like residential property.</p>
+<p>The <strong>cost approach</strong> is often used when valuating unusual, unique, or special-purpose property, because finding enough comparables would be difficult. This approach is also used to find insurable value.</p>
+<p>The <strong>capitalization approach, or income approach</strong>, bases the value upon the net annual income currently being produced with the property. It&#x27;s a specific formula.</p>
+<p>The <strong>gross rent multiplier</strong> is sometimes used to find the value of rental properties.</p>
+<p>End of Lesson 3.</p>
+                  </div>
+                </article>
+                
+            </section>
+            
+            <section class="lesson-section" id="lesson-4" data-lesson="4">
+              <div class="lesson-header">
+                <h2>Lesson 4: Rights and Interests in Real Estate (Tracks 28–34)</h2>
+                <a class="slide-btn" href="slides/Lesson-4-Student-v2.ppt" download>Download Lesson 4 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-28" data-lesson="4" data-track="28">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 28</span>
+                      <h3 class="track-title">Lesson 4, Rights and Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">2:34</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track28.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track28.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track28.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track28.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Lesson 4, Rights and Interests in Real Estate. Any interest in land is called an <strong>estate</strong>, and there are two different types of estates. A <strong>freehold estate</strong> is an actual ownership of the property. A <strong>leasehold estate</strong> is not ownership of real property; it&#x27;s some other type of interest that one might have in property, such as a lease.</p>
+<p>There are three main freehold, or ownership, interests that you can have in land: fee simple, qualified fee, and life estates. One of the main characteristics of ownership is your right to sell it. If you own land, you can sell it. Let&#x27;s take a look at each of these forms of ownership.</p>
+<p><strong>Fee simple</strong> is the highest ownership estate known. It&#x27;s sometimes referred to simply as fee, or fee simple absolute. The holder is entitled to all the rights available in the property possible by law, the ownership is complete, and there&#x27;s no time limit on its existence. Upon the death of the owner, the property usually descends to his or her heirs or survivors.</p>
+<p>The next kind of ownership is <strong>qualified fee</strong>. Determinable, conditional, or defeasible fees are estates that are similar to fee simple because they&#x27;re ownership, except that the estate will terminate if a specific event occurs or doesn&#x27;t occur. For example, Mary granted her 20 acres to the church with the condition that the property only be used as a church retreat. The deed stated that if the property ever ceased to be used for that purpose, the ownership would revert back to Mary.</p>
+<p>A very strange form of ownership is <strong>life estates</strong>. A life estate is ownership of the property, but only during the lifetime of someone we call the life tenant, or the lifetime of another. The owner of the life estate—the life tenant, they call them—is not allowed to commit <strong>waste</strong>. Waste would occur through a failure to pay property taxes, insurance, or mortgage payments. Any act on the land that substantially impairs the security value of the real estate is considered waste. Or another way to look at it would be any action on the property that would keep the remainderman from getting it after the life tenant dies. Example: John gave his mother a life estate in the house that he owned. Upon the death of John&#x27;s mother, the ownership of the house would revert back to John. John is the remainderman, the reversioner.</p>
+<p>Because fee simple is the highest and most common form of ownership, it breaks down into four subcategories: severalty, common, joint, and entirety.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-29" data-lesson="4" data-track="29">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 29</span>
+                      <h3 class="track-title">Lesson 4, Rights and Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">2:42</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track29.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track29.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track29.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track29.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p><strong>Severalty</strong>—sever all ties. This is ownership by one person only. If you break up the word severalty down into its syllables, it&#x27;s sever-al-ty, sever all ties. That&#x27;s what this person has done: severed all ties with everybody else and they own property all by themselves—severalty. Upon the death of a tenant in severalty, the property descends to his or her heirs or devisees.</p>
+<p><strong>Tenants in common</strong>: Ownership by two or more persons. Upon the death of a tenant in common, his or her interest in the property descends to the deceased&#x27;s heirs or devisees. You are allowed to have dissimilar proportions of ownership; one person can own 10%, another person can own 14%, and so on. Tenants in common requires the <strong>unity of possession</strong>, and here&#x27;s what that means: Each owner owns an undivided fractional interest in the property. You&#x27;d own a third interest or an eighth interest, it doesn&#x27;t matter; the physical property, however, is not divided up. You would own your proportional share of every doorknob, every fiber in the carpet, for example.</p>
+<p>Now, <strong>joint tenancy</strong>: Ownership by two or more persons, but includes what&#x27;s called the <strong>right of survivorship</strong>. Upon the death of a joint tenant, his or her share of the property is divided among the surviving owners only. If one of the owners passes away, their interest does not descend to their heirs or devisees; you can&#x27;t will your interest to somebody else. It automatically increases the value of the surviving joint owners. Also requires the unities of possession, interest, time, and title.</p>
+<p>- The <strong>unity of possession</strong> means each owner, again, owns an undivided fractional interest.</p>
+<p>- The <strong>unity of interest</strong> means each owner must own exactly the same percentage of the property; if there are three owners, each must own a third, and so on.</p>
+<p>- The <strong>unity of time</strong> means each owner must take possession at the same time.</p>
+<p>- The <strong>unity of title</strong>: Each owner must own exactly in the same way; two people can&#x27;t own in common and two others own in joint.</p>
+<p><strong>Tenants by the entirety</strong> is set up between husband and wife. This is a specific type of joint tenancy. Upon the death of either spouse, the property will belong to the surviving spouse. It requires the unities of possession, interest, time, and title just like joint tenancy, but it also includes something called the <strong>unity of person</strong>. The marital unit is looked upon as being one single entity. Each is said to own 100%.</p>
+<p>A <strong>license</strong> is a personal privilege to use somebody else&#x27;s property for a specific purpose. Because it&#x27;s a privilege, it&#x27;s revocable.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-30" data-lesson="4" data-track="30">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 30</span>
+                      <h3 class="track-title">Lesson 4, Rights and Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">0:55</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track30.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track30.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track30.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track30.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>If you do something wrong, break the rules, they can revoke your license.</p>
+<p>An <strong>easement</strong> is the right to use someone&#x27;s property for a specific purpose, like the right to use a portion of someone&#x27;s property for a driveway. The difference between a license and an easement is, since a license is a privilege, it&#x27;s revocable; an easement is not—it&#x27;s a right. You can&#x27;t revoke someone&#x27;s rights.</p>
+<p>If a property is on a natural inland watercourse, such as a river or a stream, the property owner would have <strong>riparian rights</strong> that would allow him or her to use and enjoy the water and the potential ownership of the submerged lands.</p>
+<p><strong>Littoral rights</strong>, on the other hand, are associated with larger bodies of water, like the Great Lakes, which allows the ownership up to what&#x27;s called the high-water mark, which is the number of feet and inches above sea level as determined by the Army Corps of Engineers.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-31" data-lesson="4" data-track="31">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 31</span>
+                      <h3 class="track-title">Lesson 4, Rights and Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">1:45</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track31.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track31.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track31.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track31.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Multi-unit complexes are sometimes set up as <strong>condominiums</strong> or <strong>cooperatives</strong>. If the property is going to be a condominium, the developer files something called a <strong>master deed</strong> that actually divides the property up into separate ownership for each of the units and separate ownership for all of the common elements. Each person that buys one of the units will own exclusively that unit&#x27;s cube of air. Additionally, the owner will share in the ownership of the common elements as tenants in common with all the other owners. When you own a condominium, you actually own real property. It might be in a multi-unit, multi-story building, but you do own your individual lot of air.</p>
+<p>In a <strong>cooperative</strong>, you own shares of stock in the corporation that owns the building. Then, you&#x27;re allowed to lease one of the units. Only shareholders are allowed to be tenants. In a cooperative, though, you do not own any real estate like you do in a condominium. Both condominiums and cooperatives have owners&#x27; associations; they handle maintenance of the common elements and the like.</p>
+<p>Now, property ownership has many restrictions, some of which are private, such as deed restrictions, but many restrictions are placed by the government. Some government controls include:</p>
+<p>- <strong>Property taxation</strong></p>
+<p>- <strong>Eminent domain</strong>, the right to take private property for public use</p>
+<p>- Various <strong>police powers</strong> of the state, such as zoning, building code restrictions, escheat laws. <strong>Escheat</strong> is the state&#x27;s right to take abandoned property whenever the owner has died and left no heirs.</p>
+<p><strong>Zoning rules</strong> are established and enforced by the local government. They determine which property shall be used as residential, commercial, or industrial.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-32" data-lesson="4" data-track="32">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 32</span>
+                      <h3 class="track-title">Lesson 4, Rights and Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">0:14</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track32.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track32.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track32.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track32.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Zoning laws are not retroactive, so property that&#x27;s in violation of a new zoning law would be allowed to continue. If that non-conforming use ever stopped, though, the property would then have to conform to the new zoning.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-33" data-lesson="4" data-track="33">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 33</span>
+                      <h3 class="track-title">Lesson 4, Rights and Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">0:59</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track33.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track33.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track33.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track33.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Anything that lessens the owner&#x27;s control of their property is called an <strong>encumbrance</strong>. Common examples of encumbrances would be mortgages, other liens, easements, encroachments, even leases.</p>
+<p><strong>Asbestos</strong> is a naturally occurring mineral that&#x27;s known for its tensile strength, insulating properties, and its heat resistance. Breathing asbestos fibers can cause serious damage to the lungs.</p>
+<p><strong>Radon gas</strong> is a naturally occurring element which can cause lung cancer. Radon gas enters houses through cracks in the basement floor and walls. It can only be detected with special testing equipment.</p>
+<p><strong>Lead</strong> was added to paint to make it dry faster, be more water-resistant, and durable. Lead can cause many and varied health problems. The EPA requires landlords and sellers to disclose to tenants and buyers of homes manufactured before 1978 the hazard of lead-based paints.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-34" data-lesson="4" data-track="34">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 34</span>
+                      <h3 class="track-title">Lesson 4, Rights and Interests in Real Estate / Start of Lesson 5</h3>
+                    </div>
+                    <span class="track-duration">0:30</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track34.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track34.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track34.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track34.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  <div class="track-note">[Note: Although indexed under Lesson 4 on the website, this track concludes Lesson 4 and introduces Lesson 5.]</div>
+                  <div class="transcript-body">
+                    <p>End of Lesson 4.</p>
+<p>Lesson 5, Transferring Interests in Real Estate. If John owns a parcel of real estate, there are three ways that his title could go to somebody else: he could sell the property or give it away using a deed; he could lose the property through some involuntary method, such as adverse possession, escheat, or through failure to pay property taxes or mortgage payments; or John could die, and his property would descend to his heirs or devisees.</p>
+                  </div>
+                </article>
+                
+            </section>
+            
+            <section class="lesson-section" id="lesson-5" data-lesson="5">
+              <div class="lesson-header">
+                <h2>Lesson 5: Transferring Interests in Real Estate (Tracks 35–39)</h2>
+                <a class="slide-btn" href="slides/Lesson-5-Student-v2.ppt" download>Download Lesson 5 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-35" data-lesson="5" data-track="35">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 35</span>
+                      <h3 class="track-title">Lesson 5, Transferring Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">0:54</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track35.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track35.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track35.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track35.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>An <strong>heir</strong> is a blood relative. When you pass away without a will, which is called <strong>intestate</strong>, the probate court would find your blood relatives and they would inherit your property. A <strong>devisee</strong>, on the other hand, is someone who receives real estate through a will.</p>
+<p>It&#x27;s possible to lose rights in property if someone else holds open, continuous, notorious, and hostile possession of the property. This is called <strong>adverse possession</strong>, and after a statutory period of time, such as 15 years in Michigan, the court may give the title to the adverse possession claimant.</p>
+<p>- The claimant must use the property in an <strong>open</strong> and visible manner.</p>
+<p>- The use has to be <strong>continuous</strong> and not stopped.</p>
+<p>- <strong>Notorious</strong> means the claim must be made publicly.</p>
+<p>- And <strong>hostile</strong> means that the claimant is in opposition to the actual owners.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-36" data-lesson="5" data-track="36">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 36</span>
+                      <h3 class="track-title">Lesson 5, Transferring Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">1:10</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track36.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track36.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track36.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track36.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>A <strong>deed</strong> is a written document that conveys title from one person to another. Each time the property is conveyed by a deed, a new deed is drawn up; the previous deed is not reused.</p>
+<p>A deed must contain:</p>
+<p>- The names of the grantor and the grantee</p>
+<p>- The grantor&#x27;s signature—grantees never sign deeds</p>
+<p>- The consideration, which does not necessarily have to be money</p>
+<p>- A legal description—a street address won&#x27;t do</p>
+<p>- And finally, words of conveyance.</p>
+<p>Title actually passes when a deed is voluntarily delivered and voluntarily accepted—not when it&#x27;s signed or recorded, but when it&#x27;s delivered and accepted.</p>
+<p>The consideration used in a deed could be money, it could be love and affection, or even $1 with the signing of a secret affidavit.</p>
+<p>Although nothing is required to be recorded at the Register of Deeds office, it&#x27;s good to do so. Deeds are recorded at the Register of Deeds office in the county where the property is located. The seller must pay <strong>transfer tax</strong>, which is calculated as $4.30 per $500 or fraction thereof. You always round up on transfer tax.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-37" data-lesson="5" data-track="37">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 37</span>
+                      <h3 class="track-title">Lesson 5, Transferring Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">1:15</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track37.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track37.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track37.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track37.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>For a deed to be valid, it does not have to be recorded. Nothing is required to be recorded; it&#x27;s just a very, very, very good idea to do so.</p>
+<p>There are three basic types of deed: general warranty, special warranty, and quitclaim.</p>
+<p>A <strong>general warranty deed</strong>: This deed contains all five of what we call covenants and warranties, and is the one most widely used. A warranty deed gives the grantee the most protection by providing five promises or warranties within the actual context of the deed:</p>
+<p>1. The first one is <strong>seisin</strong>: This means the seller, the grantor, really does own the property, so I have the right to sell it to you.</p>
+<p>2. Two, <strong>quiet enjoyment</strong>: You&#x27;ll not be bothered by other people claiming title.</p>
+<p>3. Three, <strong>further assurance</strong>: The grantor promises to provide any other documentation to prove ownership in the future if necessary.</p>
+<p>4. <strong>Against encumbrances</strong>—remember, an encumbrance is anything that lessens your control: The property is free of encumbrances except those listed in the deed.</p>
+<p>5. And then the fifth covenant or warranty is <strong>warranty forever</strong>: The grantor promises to compensate the buyer if title turns out not to be good.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-38" data-lesson="5" data-track="38">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 38</span>
+                      <h3 class="track-title">Lesson 5, Transferring Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">0:50</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track38.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track38.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track38.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track38.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Another deed is called a <strong>special warranty deed</strong>. It&#x27;s used when the seller only wishes to guarantee that the property title was not damaged during the time the seller owned the property.</p>
+<p>A <strong>quitclaim deed</strong>, on the other hand, does not contain any warranties or guarantees at all. Whatever interest, if any, that the grantor had would be conveyed to the grantee. If the grantor had good title, then the grantee would receive good title. If they didn&#x27;t have any ownership at all, then the grantee would receive nothing. It&#x27;s a very blunt instrument: if I have any ownership, you get it; if I don&#x27;t, you don&#x27;t. We use quitclaim deeds to cure clouds or errors in the chain of title. If you remember, we spoke of title insurance, and title insurance doesn&#x27;t cure anything; it simply insures against any losses, financial losses, that are caused by errors.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-39" data-lesson="5" data-track="39">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 39</span>
+                      <h3 class="track-title">Lesson 5, Transferring Interests in Real Estate</h3>
+                    </div>
+                    <span class="track-duration">1:57</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track39.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track39.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track39.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track39.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>We actually use quitclaim deeds to cure those clouds.</p>
+<p>Now, we have some special-purpose deeds:</p>
+<p>- A <strong>gift deed</strong>: This could be warranty, special warranty, quitclaim, it doesn&#x27;t matter, but if the consideration is love and affection, we just call it a gift deed.</p>
+<p>- Foreclosure auctions are normally done at the county courthouse by the county sheriff or referee. Whenever you have a <strong>sheriff&#x27;s deed</strong>, this is the type of deed issued by <em>[Note: speaker says &quot;by&quot;, meaning &quot;to&quot;]</em> the buyer of real estate sold through a foreclosure sale. This deed states the source of the sheriff or referee&#x27;s authority and the amount of the consideration. This deed at most contains only one covenant: the sheriff or referee has not encumbered the property at all.</p>
+<p>- <strong>Guardian&#x27;s deed, or conservator&#x27;s deed</strong>: This deed is used to convey a minor&#x27;s interest in real property or the interest of an incapacitated person. The deed must state the source of the guardian&#x27;s authority, and it usually contains only one warranty: that the guardian warrants that neither the guardian nor the minor or incapacitated person has encumbered the title.</p>
+<p>- <strong>Deed in lieu of foreclosure</strong>: A deed to the lender given by an owner conveying mortgaged property in which the mortgage is in default. It&#x27;s an alternative to a foreclosure action.</p>
+<p>Once something gets recorded, it&#x27;s never unrecorded. So if I was to record a document with an error in it—say, an error in spelling of a name or an error in the address—I can&#x27;t just take it out and fix it and put it back. I normally have to issue something called a <strong>corrections deed</strong>, also called a <strong>deed of confirmation</strong>. It&#x27;s used to correct an error in a previous deed. The most common errors are, like I said, misspelled names and mistakes in the property description. A quitclaim deed usually is used for this purpose, with a statement regarding the error.</p>
+<p>End of Lesson 5 and Disc 1.</p>
+                  </div>
+                </article>
+                
+            </section>
+            
+            <section class="lesson-section" id="lesson-6" data-lesson="6">
+              <div class="lesson-header">
+                <h2>Lesson 6: Property Management (Tracks 40–47)</h2>
+                <a class="slide-btn" href="slides/Lesson-6-Student-v2.ppt" download>Download Lesson 6 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-40" data-lesson="6" data-track="40">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 40</span>
+                      <h3 class="track-title">Lesson 6, Property Management</h3>
+                    </div>
+                    <span class="track-duration">1:53</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track40.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track40.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track40.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track40.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Lesson 6, Property Management. If you want to manage property that&#x27;s owned by somebody else for a fee, then you have to have a broker&#x27;s license or be licensed under a real estate broker. As we learned in Lesson 1, Michigan never really created a property manager&#x27;s license, so we rely on the real estate licenses. Property management companies are actually real estate companies; there&#x27;s a broker, associate broker, and salespersons.</p>
+<p>But not all property management situations require a real estate license, though. There are two exemptions for licensure, and both have to do with liability:</p>
+<p>1. First, if you own the property and want to turn it into a rental, then you don&#x27;t have to be licensed. You own it, you&#x27;re the manager, so you&#x27;re responsible; if you do something wrong, then you&#x27;re liable for it.</p>
+<p>2. Second, if you own the property and you hire a direct employee to manage the property, then the employee does not have to be licensed. If the employee mismanages the property, the owner still gets in trouble; the owner is still liable.</p>
+<p>If the owner of a rental property, though, wants to hire somebody and be completely free of liability from its management, then he&#x27;d have to hire a licensed real estate agent as a property manager. The property manager would be then liable.</p>
+<p>Let&#x27;s make sure that we know the difference between two words that are commonly used interchangeably, but actually mean distinctly different things: <strong>lease</strong> and <strong>rent</strong>. In vernacular English, conversational English, it&#x27;s acceptable to use them as synonyms, words that mean the same thing. For example, &quot;I&#x27;m going to lease a car, I&#x27;m going to rent a car&quot;—same thing. &quot;I&#x27;m going to lease this house, I&#x27;m renting this house&quot;—same thing. Here&#x27;s how it actually works, though: a lease is a contract, and rent is the consideration in the agreement. So a lease is what you have, and rent is what you pay. On the state exam, it&#x27;s often just assumed that property managers get a percentage of the gross rent.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-41" data-lesson="6" data-track="41">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 41</span>
+                      <h3 class="track-title">Lesson 6, Property Management</h3>
+                    </div>
+                    <span class="track-duration">0:43</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track41.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track41.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track41.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track41.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>A lease is a contract between the owner and a tenant. The tenant agrees to pay a specified amount of rent in exchange for the possession and use of the property. The lease may be written or oral; an oral lease is enforceable if it&#x27;s for a year or less only, though.</p>
+<p>Now, to review from Lesson 4: Any interest that you might have in land is called an estate, and you can have two different kinds of interests. You can have an ownership interest, or some other type of interest, like a lease. If you have an ownership interest in the property, that&#x27;s called a freehold estate. If you have some other type of interest that&#x27;s not as good as ownership, like a lease, for example, then we call these leasehold estates, or non-freehold estates.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-42" data-lesson="6" data-track="42">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 42</span>
+                      <h3 class="track-title">Lesson 6, Property Management</h3>
+                    </div>
+                    <span class="track-duration">0:27</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track42.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track42.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track42.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track42.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>You may also remember from Lesson 4 that we talked about freehold estates, and I said that we had three types: fee simple, qualified fee, and life estates. Well, in leasehold category, we have something similar, only there are four. They are:</p>
+<p>- Estate from year to year</p>
+<p>- Estate for years</p>
+<p>- Estate at will</p>
+<p>- And an estate at sufferance.</p>
+<p>Each of these has its own characteristics.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-43" data-lesson="6" data-track="43">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 43</span>
+                      <h3 class="track-title">Lesson 6, Property Management</h3>
+                    </div>
+                    <span class="track-duration">1:03</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track43.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track43.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track43.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track43.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Now, I have to stop here and make sure we all understand something. The word &quot;year,&quot; Y-E-A-R, does not mean 12 months when used in connection with leasehold estates. It means any time period—any time period at all: a week, a month, a year, 10 years, whatever. Don&#x27;t ask me why, just try to remember it. So when we&#x27;re discussing the leasehold estate, a year means any length of time, including 12 months.</p>
+<p>The first of our four types of leasehold estates is called an <strong>estate from year to year</strong>. This type of lease automatically renews itself for the same period of time. One example of an estate from year to year would be a month-to-month lease. It goes on for a month, then automatically renews itself for another month, until either the landlord or the tenant says, &quot;Okay, we don&#x27;t want to renew at the end of this month.&quot; The unique aspect is that it automatically renews.</p>
+<p>Our second type of leasehold estate is an <strong>estate for years</strong>. This lease does not automatically re- <em>[Note: word splits across Track 43 and Track 44: &quot;renew&quot;]</em></p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-44" data-lesson="6" data-track="44">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 44</span>
+                      <h3 class="track-title">Lesson 6, Property Management</h3>
+                    </div>
+                    <span class="track-duration">0:46</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track44.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track44.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track44.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track44.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>-new; it has a predetermined expiration date.</p>
+<p>Our third type of leasehold estate is an <strong>estate at will</strong>. This type of lease continues until either the landlord or the tenant says, &quot;I&#x27;m leaving now,&quot; or &quot;You&#x27;re leaving now.&quot; This is a very loose lease agreement, and it&#x27;s rarely in writing. This might be someone staying over at your house a week or so. This would be the one most likely to be terminated, though, by the death of either party, because leases normally run with the land. For example, if you&#x27;re the tenant three months into a 12-month lease agreement and your landlord dies, your lease is not terminated automatically—except in an estate at will, it is allowed to be terminated at any time.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-45" data-lesson="6" data-track="45">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 45</span>
+                      <h3 class="track-title">Lesson 6, Property Management</h3>
+                    </div>
+                    <span class="track-duration">1:15</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track45.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track45.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track45.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track45.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Finally and fourthly, we have the <strong>estate at sufferance</strong>. As the name suggests, someone is suffering; in this case, it just happens to be the landlord. This is a situation where a tenant has gained possession lawfully, but is now unlawfully occupying the property. The lease has expired, they just won&#x27;t leave—estate at sufferance.</p>
+<p>Leases can be classified in a number of different ways. One method is the distinction between a <strong>gross lease</strong> and a <strong>net lease</strong>.</p>
+<p>- In a <strong>gross lease</strong>, the tenant pays rent and the landlord pays the ownership expenses—ownership expenses being things like property taxes, homeowners insurance, and maintenance or major repairs. So in a gross lease, the tenant gives the landlord the gross amount of rent, and the landlord uses that extra money to actually pay the ownership expenses. This is normally associated with residential leases.</p>
+<p>- In a <strong>net lease</strong>, though, the tenant pays rent and these ownership expenses, and what the rent ends up being paid to the landlord is the landlord&#x27;s net after these expenses have been paid. And keep in mind, too, we&#x27;re only talking about property taxes, homeowners insurance, and maintenance.</p>
+<p>Re- <em>[Note: word splits across Track 45 and Track 46: &quot;Retail&quot;]</em></p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-46" data-lesson="6" data-track="46">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 46</span>
+                      <h3 class="track-title">Lesson 6, Property Management</h3>
+                    </div>
+                    <span class="track-duration">2:20</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track46.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track46.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track46.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track46.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>-tail store owners sometimes use something called a <strong>percentage lease</strong>. A percentage lease usually charges the tenant an agreed-upon minimum rent, often based on square footage—so many dollars per month per square foot—and then a percentage of the gross sales.</p>
+<p>Landlords who are concerned with increasing expenses on their rental properties may use a <strong>graduated lease</strong>. The rent increases by step-by-step installments as per the lease agreement. Both the tenant and the landlord know how much the rent&#x27;s going to go up, and they&#x27;re both in agreement with it. Let&#x27;s say you sign a 10-year lease in a commercial situation with a tenant. For 10 years, you&#x27;re probably going to want the rent to go up over the course of a decade, so you agree to this increase in advance with a graduated lease. What normally happens is you&#x27;ll say, &quot;Okay, every January 1st, the rent will increase 1.25%.&quot; Everybody agrees to it.</p>
+<p>There is another way, though, for landlords to deal with increases in expenses: they might use an <strong>escalation clause</strong> in a lease. An escalation clause in a lease agreement: if for some reason the landlord&#x27;s expenses go up—with, say, a special assessment or increases in property taxes—the escalation clause would allow the rent to go up a certain amount. The amount is not a predetermined amount, and there are usually safeguards built into the lease agreement to limit the amount the rent can increase and for what reasons.</p>
+<p>Many retail companies want to design and build their own buildings to meet their needs, but don&#x27;t want their money to be tied up in real estate because they need it to buy goods they sell—or buy the goods they sell. In this situation, they often use a <strong>sale and leaseback</strong>. The company has a building built where they want it and how they want it, but now they&#x27;re out of money. And so they need to hire their initial employees and stock the shelves. So in other words, they need to find a way to extend their startup capital. Here&#x27;s how a sale and leaseback works: The company finds a real estate investor and then sells them the brand-new building, and then takes back a long-term net lease. The money they get in the sale is used to hire employees and stock the shelves.</p>
+<p>If someone was a real estate investor and wanted to calculate what percentage of profit or loss that they made in an investment, it could be done like this: You could calculate the amo- <em>[Note: word splits across Track 46 and Track 47: &quot;amount&quot;]</em></p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-47" data-lesson="6" data-track="47">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 47</span>
+                      <h3 class="track-title">Lesson 6, Property Management / Start of Lesson 7</h3>
+                    </div>
+                    <span class="track-duration">3:04</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track47.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track47.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track47.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track47.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  <div class="track-note">[Note: Although indexed under Lesson 6 on the website, this track concludes Lesson 6 and begins Lesson 7: Financing Real Estate.]</div>
+                  <div class="transcript-body">
+                    <p>-unt of money that you made or lost in dollars, and then divide that into their investment. The resulting number would be their percentage of profit or their percentage of loss.</p>
+<p>End of Lesson 6.</p>
+<p>Lesson 7, Financing Real Estate. There are many different ways to finance the purchase of real estate. A <strong>mortgage loan</strong> is one of the most common. This type of loan uses the property you&#x27;re about to buy as the collateral for the loan. The lender gives the money to the borrower, and the borrower purchases the property. The lender requires the borrower to sign a mortgage loan contract. This contract consists of two parts: the <strong>mortgage</strong> and the <strong>note</strong>.</p>
+<p>- The <strong>mortgage</strong> is a document which pledges the property as collateral. It&#x27;s the borrower telling the bank in writing that they can sell the property and keep the proceeds if they don&#x27;t pay the money back.</p>
+<p>- The second part to this contract is the <strong>note</strong>; it&#x27;s actually called the <strong>promissory note</strong>. This document has all the details of the loan on it: the amount, the payoff schedule, interest rate, and such. It also contains a statement in which the borrower promises to pay the money back personally.</p>
+<p>The borrower signs this contract and gives it to the bank. The bank then records the mortgage portion. It&#x27;s the process of recording the mortgage that actually creates the lien against the property, allowing the bank to sell it if the loan is not paid back. Recording the document also gives notice to the public of the bank&#x27;s interest in the property, and the date recorded also determines the lien&#x27;s priority in case of a default.</p>
+<p>An appraisal is normally done to determine the value of the property. Lenders prefer not to loan 100% of the property&#x27;s value; instead, they&#x27;d rather have the buyer be somewhat personally invested in the way of a down payment. If the borrower puts 10% down on the purchase price and the bank finances 90%, this would be a <strong>90% loan-to-value ratio</strong>.</p>
+<p>Years ago, if you borrowed money from your local bank, they would hold on to that loan and make money on the interest. That&#x27;s really not how it&#x27;s done anymore. There are actually two steps to the mortgage loan process: the <strong>primary market</strong> and the <strong>secondary market</strong>.</p>
+<p>- The <strong>primary market</strong> is between you and your local bank. Your bank gets a fee for originating or creating the mortgage loan—usually 1% of the mortgage amount. So for originating an $80,000 mortgage loan, your bank gets 800 bucks.</p>
+<p>- Your local bank does not keep the mortgage loan and make money off the interest; instead, they sell the loan to huge investors in what&#x27;s called the <strong>secondary mortgage market</strong>. These secondary buyers are congressionally sanctioned corporations. Your local bank sells your loan to the secondary mortgage market, and these investors make their money on interest. Your local bank makes some money when they sell the loan, though. The lender essentially acts as a middleman between the borrower and the secondary mortgage market investor.</p>
+<p>Now, who are these big congressionally sa- <em>[Note: word splits across Track 47 and Track 48: &quot;sanctioned&quot;]</em></p>
+                  </div>
+                </article>
+                
+            </section>
+            
+            <section class="lesson-section" id="lesson-7" data-lesson="7">
+              <div class="lesson-header">
+                <h2>Lesson 7: Financing (Tracks 48–49)</h2>
+                <a class="slide-btn" href="slides/Lesson-7-Student-v2.ppt" download>Download Lesson 7 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-48" data-lesson="7" data-track="48">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 48</span>
+                      <h3 class="track-title">Lesson 7, Financing</h3>
+                    </div>
+                    <span class="track-duration">8:24</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track48.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track48.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track48.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track48.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>-nctioned corporations that make up the secondary market? Well, they are:</p>
+<p>- The <strong>Federal National Mortgage Association (FNMA)</strong>, and also known as <strong>Fannie Mae</strong></p>
+<p>- The <strong>Government National Mortgage Association (GNMA)</strong>, also known as <strong>Ginnie Mae</strong></p>
+<p>- And the <strong>Federal Home Loan Mortgage Corporation (FHLMC)</strong>, also known as <strong>Freddie Mac</strong>.</p>
+<p>You might have to know the goofy little names, too, for the exam.</p>
+<p><strong>Discount points</strong>: A borrower pays discount points to obtain a lower-than-market rate of interest. How would a borrower avoid paying discount points? Accept a higher interest rate. How much is a discount point? 1% of the loan amount. What is it called when you pay discount points to get a lower interest rate? Buying down the interest rate.</p>
+<p>Now let&#x27;s talk about some mortgage loan clauses and characteristics.</p>
+<p>Some loans require only the interest during the term, and then the principal is due at the end of the term. This is a <strong>term loan or straight loan</strong>; you probably know this as an <strong>interest-only loan</strong>.</p>
+<p><strong>Amortization</strong> is breaking down a loan into regular equal installments. The first payment is the same amount as the last payment, in theory. Once all the payments are made, everything is paid off—principal, interest, everything.</p>
+<p>Some loans are only <strong>partially amortized</strong>, though. They start out like an amortized loan, only at a set point in the future the entire balance or a large percentage is owed in one big payment called a <strong>balloon payment</strong>.</p>
+<p>Many mortgage loans today are called <strong>budget mortgages</strong>. They require the borrower to pay a prorated amount of the taxes and insurance—that would be the property taxes and homeowners insurance—with the regular monthly payment on the loan. When the taxes and insurance need to be paid, the lender then pays them with the money they collected from the borrower over the course of the year. Many people know this as an <strong>escrow loan</strong>.</p>
+<p>Michigan is a <strong>lien theory state</strong>, which means that lenders hold a lien on the property. Some states use <strong>title theory</strong>, and it actually gives the lender title to the property while the payments are being made. Michigan is a lien theory state; we actually own our property for the duration of the loan—the bank just has a lien on it.</p>
+<p>Some mortgages have fixed payments and fixed interest rates, but others have payments and/or interest that can change. An <strong>adjustable-rate mortgage</strong> has an interest rate that fluctuates with current market conditions.</p>
+<p><strong>Construction loans</strong> are designed to release funds to the builder in stages as the work progresses.</p>
+<p>If someone wanted a lender to finance more than one property at a time, he or she may use a <strong>blanket mortgage</strong>. Like a blanket of snow can cover all the houses on the same block, so can a blanket mortgage loan. This type of financing usually contains something called a <strong>partial release clause</strong> that would release the liens on each of the properties after a corresponding amount of the mortgage debt is paid.</p>
+<p>A <strong>due-on-sale clause</strong> in a mortgage loan prohibits the borrower from selling or alienating the property and assigning the mortgage to a new buyer. The balance of the loan is due on the sale—due-on-sale clause.</p>
+<p>Many mortgage loans contain an <strong>acceleration clause</strong> that allows the lender to accelerate the due date of the loan if the buyer defaults, and the entire principal balance comes due in the next billing cycle.</p>
+<p>Now, especially in lien theory states like Michigan, mortgage loans have something called a <strong>power of sale clause</strong> that allows the lender to foreclose without going through the courts and have the property sold to pay the debt in case of a default. It&#x27;s referred to as a <strong>foreclosure by advertisement</strong>. The lender just has to advertise in a countywide publication for four weeks at least, and then they may proceed with a foreclosure action, which is usually the result of an auction at the county courthouse done by the county sheriff or referee.</p>
+<p>A <strong>defeasance clause</strong> in a mortgage loan states that when the mortgage is paid, the mortgagee&#x27;s claim stops or is defeated. Anything that is defeasible has the potential of being stopped, defeated.</p>
+<p>Some mortgage loans are <strong>open</strong>, which allows you to pay them off and save on interest, but there&#x27;s often a <strong>prepayment penalty clause</strong> that allows the lender to charge a penalty if the borrower pays the loan off too early.</p>
+<p>Residential mortgage loans, besides owner financing, can be <strong>conventional</strong>, or they can be insured or guaranteed by the federal government. <strong>FHA</strong> and <strong>VA</strong> loans are obtained at local lenders. Local lenders give the borrowers the money, but either FHA <strong>insures</strong> the loan and promises the lenders that they&#x27;ll not lose any principal or interest up to a certain amount, or VA <strong>guarantees</strong> the lender against such a loss of principal and interest. Both FHA and VA mortgage loans are assumable. VA sometimes provides mortgage moneys, but only in rare cases.</p>
+<p>There are several private companies that offer <strong>private mortgage insurance (PMI)</strong>. The buyer pays for this insurance, and since the lender is insured against loss, the lender could accept a lower down payment and still feel secure.</p>
+<p>If a borrower defaults on his or her mortgage loan contract, the lender can foreclose on the property. The property, again, is sold at the sheriff&#x27;s sale to pay the debt. The borrower is given a certain period of time before and even a period of time after the sale in which to redeem the property—to raise the money that they owed and stop the foreclosure action. The <strong>statutory redemption period</strong> is six months after the foreclosure auction, and 12 months if the property is zoned agricultural.</p>
+<p>A <strong>deed of trust</strong> is similar to a mortgage, except that a third party—someone called a trustee—actually holds title to the property until the debt is paid in full. We do not use deeds of trust here in Michigan.</p>
+<p>Now, you can finance property without a bank using <strong>owner or seller financing</strong>. As the term implies, this is when the seller participates in the financing. One of the most common is the <strong>land contract</strong>. The seller, called the vendee <em>[Note: speaker momentarily swaps &quot;vendee&quot; and &quot;vendor&quot; in this sentence, then immediately states the correct terms in the next sentence: seller = vendor, buyer = vendee]</em>, and the buyer, called the vendor, enter into an installment sales contract. There&#x27;s no bank involved; the buyer makes payments right to the seller. The seller, the <strong>vendor</strong>, usually retains the title to the property until the buyer, the <strong>vendee</strong>, has made all the payments. Then the seller transfers ownership to the buyer with the use of a deed. On your exam, they might call a land contract a <strong>contract for a deed</strong>.</p>
+<p>A <strong>wraparound mortgage</strong> is a form of owner or seller financing. This type of financing leaves an existing mortgage in place and then encompasses it. For example, Bill owed $10,000 on a mortgage loan at 6% interest. When he sold his property for $32,000, he required that the new buyer pay a $2,000 down payment and then took the balance on a wraparound mortgage at 10%. Bill was collecting payments from the buyers on a $30,000 loan, while he continued to also make payments on the underlying $10,000 mortgage at only 6% interest, let&#x27;s say.</p>
+<p>Every state has placed maximum limits on the amount of interest that can be charged in certain situations, and they call these laws <strong>usury laws</strong>. Charging more interest than is allowed by law is also called <strong>usury</strong>.</p>
+<p>The <strong>Truth in Lending Act</strong> may come up on your state exam. It contains a part called <strong>Regulation Z</strong>. It requires clear disclosure of finance terms to the general public. This law requires that if a certain <strong>trigger term</strong>, such as the amount of the down payment or the interest rate, are used in the advertisement, then full disclosure of all the other financing terms must be included in the advertisement. Advertisements for loans to corporations and government agencies are exempt.</p>
+<p><strong>TRID</strong>—doesn&#x27;t that sound good, TRID? This is actually a terrible acronym which includes acronyms. TRID stands for: T- <em>[Note: continues in Track 49]</em></p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-49" data-lesson="7" data-track="49">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 49</span>
+                      <h3 class="track-title">Lesson 7, Financing</h3>
+                    </div>
+                    <span class="track-duration">1:23</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track49.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track49.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track49.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track49.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>-Truth in Lending Act, R, Real Estate Settlement Procedures Act, I, Integrated, and D, Disclosure—<strong>TRID</strong>. It&#x27;s an attempt to make disclosure of finance terms to be disclosed to the consumer in a more understandable fashion by replacing numerous federal disclosure documents with two easier-to-understand documents:</p>
+<p>- TRID replaced the Good Faith Estimate and Truth in Lending disclosures, and eliminated and combined them into a new single <strong>Loan Estimate form, or LE form</strong>.</p>
+<p>- The final Truth in Lending disclosure and the HUD-1 settlement statement have been replaced by the <strong>Closing Disclosure, or CD</strong>.</p>
+<p>Although we&#x27;ll touch on this a little bit later, the <strong>Equal Credit Opportunity Act</strong> is another federal law that regulates the banking industry. It&#x27;s kind of like a civil rights law for lenders. The ECOA, Equal Credit Opportunity Act, prohibits a lender from refusing a loan because of illegal discrimination. Basically, it states that if you&#x27;re turned down for a loan, it can&#x27;t be because of illegal discrimination, and the bank has to send you the reason why you were turned down in writing within 30 days. Equal Credit Opportunity Act.</p>
+<p>End of Lesson 7.</p>
+                  </div>
+                </article>
+                
+            </section>
+            
+            <section class="lesson-section" id="lesson-8" data-lesson="8">
+              <div class="lesson-header">
+                <h2>Lesson 8: Civil Rights and Fair Housing (Tracks 50–56)</h2>
+                <a class="slide-btn" href="slides/Lesson-8-Student-v2.ppt" download>Download Lesson 8 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-50" data-lesson="8" data-track="50">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 50</span>
+                      <h3 class="track-title">Lesson 8, Civil Rights and Fair Housing</h3>
+                    </div>
+                    <span class="track-duration">2:07</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track50.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track50.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track50.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track50.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Lesson 8, Civil Rights and Fair Housing. The issue of civil rights is an important one, both politically and personally. This recording, though, is a brief overview solely for the purposes of exam preparation.</p>
+<p>There are six civil rights laws we have to be familiar with for our exam: four federal laws and two state laws. On the federal level, we have:</p>
+<p>1. The <strong>Civil Rights Act of 1866</strong></p>
+<p>2. The <strong>Civil Rights Act of 1968</strong></p>
+<p>3. The <strong>Equal Credit Opportunity Act of &#x27;74</strong></p>
+<p>4. And the <strong>Americans with Disabilities Act of 1990</strong>.</p>
+<p>It&#x27;s important to understand that these laws do not prohibit discrimination; they define and prohibit <strong>illegal discrimination</strong>. Because you can discriminate in a transaction. For example, can a real estate company, seller, or landlord discriminate against somebody in a real estate transaction because of their financial status? Yeah. Can an apartment manager discriminate against somebody because they have pets? Yeah. Because they chew tobacco? Yeah. These are all examples of legal discrimination.</p>
+<p>So, what is illegal discrimination? Treating somebody differently in a transaction because they&#x27;re associated with the different civil rights laws&#x27; protected classes or protected group. Each civil rights law has a different list of protected criteria. You&#x27;ll need to be able to read a scenario and be able to know which civil rights laws it is or is not in violation of.</p>
+<p>There are four things we need to know about each law:</p>
+<p>1. We need to know its <strong>name</strong></p>
+<p>2. Its <strong>protected classes or criteria</strong></p>
+<p>3. Any <strong>exemptions</strong></p>
+<p>4. And the <strong>maximum fine</strong> for violating the law and what <strong>legal venues</strong> are available.</p>
+<p>One thing to remember is that there&#x27;s no jail time associated with any of these laws.</p>
+<p>Let&#x27;s do the federal laws first.</p>
+<p><strong>The Civil Rights Act of 1866</strong>: Passed on April 6, 1866, this federal law protects only one criteria: <strong>race</strong>, and race alone. If you were discriminated against due- <em>[Note: continues in Track 51]</em></p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-51" data-lesson="8" data-track="51">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 51</span>
+                      <h3 class="track-title">Lesson 8, Civil Rights and Fair Housing</h3>
+                    </div>
+                    <span class="track-duration">2:55</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track51.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track51.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track51.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track51.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>-to your religion, then you&#x27;d have to find a different law to stand on. If someone violates this law, the court:</p>
+<p>- Could issue a restraining order to stop the sale or rental of the desired property to another</p>
+<p>- Could force the respondent to sell or rent the property to the complainant</p>
+<p>- Could charge the respondent damages, which are awarded to the complainant, also charge him or her court costs</p>
+<p>- Take other appropriate action to benefit the complainant.</p>
+<p>One of the most striking characteristics of this law is that there&#x27;s <strong>no limit on the punitive damages</strong>, and the suit may be filed anytime within the individual state&#x27;s statute of limitations—in Michigan, this is <strong>two years</strong>. This is by far the easiest law to remember, in my opinion, because first, it&#x27;s from the 1800s, there&#x27;s no limit on financial damages, it covers discrimination based on race alone, and you&#x27;ve got two years from the date of the discriminatory act against you to file your complaint.</p>
+<p>Our next law is the <strong>Civil Rights Act of 1968</strong>. The first issue we need to discuss is the name of the law. Its actual name is the Civil Rights Act of 1968, but on the exam this may be referred to in a number of different ways. The particular portion of this law which addresses discrimination in housing is called <strong>Title VIII, the Fair Housing Act</strong>, and it&#x27;s a part of the Civil Rights Act of 1968. Additionally, the law was amended in <strong>1988</strong>. So this law may be referred to as the Civil Rights Act of 1968, or the Civil Rights Act of &#x27;68/&#x27;88, Title VIII, or the Fair Housing Act. So you got to be aware.</p>
+<p>This act goes beyond the Civil Rights Act of 1866 by expanding the number of protected criteria. You&#x27;ll remember the 1866 law only prohibited discrimination based on race. For the 1968 law, it&#x27;s a violation to discriminate when selling or renting most housing, as well as vacant land, on the basis of:</p>
+<p>- <strong>Race</strong></p>
+<p>- <strong>Color</strong></p>
+<p>- <strong>Religion</strong></p>
+<p>- <strong>Sex</strong></p>
+<p>- And <strong>National origin</strong>.</p>
+<p>Now, it was amended in 1988 to include protection against discrimination based on:</p>
+<p>- <strong>Disability</strong></p>
+<p>- And <strong>Familial status</strong>. Familial status refers to households with children less than 18 years of age and pregnant women.</p>
+<p>The following are violations of the act:</p>
+<p>- Someone who refuses to sell, rent, or negotiate or deal with any person because of their association with the protected criteria</p>
+<p>- Someone who changes the terms or conditions for buying or renting real estate because of someone&#x27;s association with the protected criteria</p>
+<p>- Someone who discriminates by advertising housing as available only to certain persons</p>
+<p>- Someone who falsifies the availability of housing for inspection, sale, or lease</p>
+<p>- A c- <em>[Note: word splits across Track 51 and Track 52: &quot;commercial&quot;]</em></p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-52" data-lesson="8" data-track="52">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 52</span>
+                      <h3 class="track-title">Lesson 8, Civil Rights and Fair Housing</h3>
+                    </div>
+                    <span class="track-duration">3:01</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track52.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track52.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track52.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track52.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>-ommercial lender, such as a bank or savings and loan, or insurance company, presents different terms or conditions for home loans or denies such home loans</p>
+<p>- Also, if you restrict or prohibit the participation in any real estate services, such as broker organizations, multiple listing services, or other facilities related to the sale or rental of real estate</p>
+<p>- A licensee continues to solicit business after he or she has been asked by the owner to stop</p>
+<p>- Another violation of the &#x27;68 law is to give a minority buyer or seller less than favorable treatment by ignoring the customer or referring him or her to an agent of the same minority</p>
+<p>- If you fail to use your best efforts</p>
+<p>- If you do not submit or delay an offer, or induce a seller to reject an offer because of race, color, religion, sex, national origin, handicap, or familial status. This, too, would be a violation.</p>
+<p>Although it may seem strange, there are <strong>exemptions</strong> from this law—actual situations which would allow someone to legally discriminate. These are very specific situations, though, and they <strong>never allow for discrimination based on race</strong>; the 1866 law trumps this one.</p>
+<p>One of the exemptions is <strong>senior housing</strong>. I mentioned that familial status means families with children less than 18 years of age and pregnant women. Even though it&#x27;s now illegal to discriminate on this basis, the law did incorporate exemptions for senior citizens&#x27; facilities, and there are two:</p>
+<p>1. First, housing intended for and solely occupied by persons <strong>62 years of age or older</strong> is exempt from the familial status prohibition against discrimination.</p>
+<p>2. Second, housing specially designed for older persons, if at least <strong>80% of the dwellings</strong> are occupied by at least one person <strong>55 years of age or older</strong>.</p>
+<p>The first one is far more strict; the second one is kind of like senior citizens lite. Now, in both of these exemptions, the owner, the landlord, can now say &quot;no kids.&quot; Normally you wouldn&#x27;t be able to because that&#x27;s a protected criteria, but this is an exemption, an exception.</p>
+<p>Yet another provision of the 1968 law is that it <strong>prohibits all discriminatory advertising</strong>. We just discussed some exemptions to the law; even if you are legally allowed to discriminate, you still can&#x27;t advertise it.</p>
+<p>You&#x27;re very likely on the exam to see a question concerning the three named forms of discrimination. They are <strong>blockbusting</strong>, <strong>steering</strong>, and <strong>redlining</strong>.</p>
+<p>The first one, <strong>blockbusting</strong>, also known as <strong>panic peddling</strong>: Blockbusting is a circumstance in which an agent tries to generate and profit on sales by implying that the makeup of the neighborhood is going to change—activities aimed at promoting sales or listings based on any implication about a change in the neighborhood with respect to our protected criteria,</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-53" data-lesson="8" data-track="53">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 53</span>
+                      <h3 class="track-title">Lesson 8, Civil Rights and Fair Housing</h3>
+                    </div>
+                    <span class="track-duration">2:58</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track53.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track53.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track53.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track53.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>someone who threatens that the homogeneity, the oneness, of a neighborhood is going to change, and then profiting from that threat.</p>
+<p><strong>Steering</strong>: Steering is also a violation. Steering is the channeling of buyers and tenants to or away from certain areas. For example, a real estate agent met with a Polish couple that were looking for a home. The agent only told them about listings that were in the Polish community. This is illegal. Keep in mind, also, that <strong>positive discrimination</strong> can also be illegal. Imagine that this Polish couple comes into your office with a translator and says to you, &quot;Please, only show us listings in the Polish community.&quot; Well, we don&#x27;t know where the Polish community is. What we need is geography: where would you like to live? So even positive discrimination is illegal.</p>
+<p>Here are some additional exemptions from the law:</p>
+<p>- Renting rooms or units in an <strong>owner-occupied, multi-family dwelling designed for four or less families</strong>—that would be an exemption.</p>
+<p>- A <strong>religious organization</strong>, for other than a commercial purpose, limiting the sale, rental, or occupancy of dwellings to such persons of the same religion.</p>
+<p>- A <strong>private club</strong> that limits the rental or occupancy of lodgings to their own members, when such a club is operating for other than a commercial purpose, and obviously membership is not based on discrimination.</p>
+<p><strong>Disabilities</strong>: The Civil Rights Act of 1968/&#x27;88 requires a landlord to allow a disabled person to make modifications to a unit or building at that tenant&#x27;s expense. For example, a person in a wheelchair can pay to have the doors widened or non-structural walls removed in order to have complete access to the interior of an apartment unit. The landlord can require the tenant to return the structure to its original condition at their expense when they leave.</p>
+<p>Now, someone who&#x27;s been discriminated against has <strong>one year</strong>—one year—to take their complaint to the <strong>Department of Housing and Urban Development (HUD)</strong>, and the maximum dollar fine for violating the Civil Rights Act of 1968 is <strong>$100,000</strong> for repeat offenders.</p>
+<p>Our third federal civil rights law is the <strong>Americans with Disabilities Act of 1990</strong>, commonly simply referred to as the <strong>ADA</strong>. Very important to this law is the actual definition of disability. Here&#x27;s what lawmakers came up with: A <strong>disability</strong> is any physical or mental impairment that substantially limits one or more of the major life activities of an individual. Okay, so what is a <strong>major life activity</strong>? Well, this is defined as such things as walking, talking, caring for oneself, seeing, hearing, breathing, speaking, learning, working, and participating in community activities.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-54" data-lesson="8" data-track="54">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 54</span>
+                      <h3 class="track-title">Lesson 8, Civil Rights and Fair Housing</h3>
+                    </div>
+                    <span class="track-duration">0:53</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track54.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track54.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track54.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track54.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>It also includes individuals who had suffered, but do not currently suffer from the disability, such as someone who has cancer which is now in remission, and those people who are simply perceived as being disabled.</p>
+<p>Also within this definition is <strong>physical impairment</strong>: this means any physiological disorder or condition, cosmetic disfigurement, or anatomical loss affecting one or more of the numerous body systems.</p>
+<p>Also included is <strong>mental impairment</strong>: this includes mental retardation, organic brain syndrome, emotional or mental illness, and specific learning disabilities; people with AIDS, acquired immune deficiency syndrome, and drug abusers or alcoholics that have undergone therapy.</p>
+<p>Exemptions to the law, though, include places of worship or private clubs.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-55" data-lesson="8" data-track="55">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 55</span>
+                      <h3 class="track-title">Lesson 8, Civil Rights and Fair Housing</h3>
+                    </div>
+                    <span class="track-duration">2:23</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track55.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track55.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track55.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track55.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>Many would still have to comply if they open their facilities to the general public.</p>
+<p>Here are some examples of discriminatory activity as defined by the ADA:</p>
+<p>- Denial of the right to fully and equally participate in and benefit from accommodations enjoyed by persons who are not disabled</p>
+<p>- Eligibility criteria which tends to screen out persons with disabilities—an example, a requirement that a driver&#x27;s license be displayed in order to buy goods or merchandise, because some handicapped individuals may not be able to drive</p>
+<p>- Failure to provide special arrangements for communicating with customers.</p>
+<p>Penalties for violating the ADA include:</p>
+<p>- Injunctive relief to require equal access</p>
+<p>- Attorney fees, litigation costs, and related expenses are recoverable by the prevailing party</p>
+<p>- Financial penalty up to <strong>$50,000</strong> for the first violation and up to <strong>$100,000</strong> for subsequent violations, and also the requirement that the building comply</p>
+<p>- And an action may be filed either in state or federal court.</p>
+<p>Even though all the laws we&#x27;ve just talked about apply to lending institutions, Congress decided that we needed a special law just for lenders. So we have the <strong>Equal Credit Opportunity Act of 1974 (ECOA)</strong>, which makes it unlawful for any creditor to discriminate against any applicant with respect to any aspect of a credit transaction on the basis of:</p>
+<p>- <strong>Race</strong></p>
+<p>- <strong>Color</strong></p>
+<p>- <strong>Religion</strong></p>
+<p>- <strong>National origin</strong></p>
+<p>- <strong>Sex</strong></p>
+<p>- <strong>Marital status</strong></p>
+<p>- <strong>Age</strong></p>
+<p>- Or the fact that all or part of the applicant&#x27;s income derives from a <strong>public assistance program</strong>.</p>
+<p>The ECOA states that creditors must inform the candidate if they&#x27;ve been denied or granted credit within <strong>30 days</strong> of receiving the completed application in writing. Lenders are also required to give the specific reason or reasons why one is denied credit or granted credit in a way different from the terms under which they originally applied.</p>
+<p>Now let&#x27;s talk about Michigan&#x27;s civil rights laws. We have two, actually: we have the <strong>Elliott-Larsen Civil Rights Act</strong> and the <strong>Michigan Persons with Disabilities Civil Rights Act</strong>, both of <strong>1976</strong>. These laws are very similar to one another, to the point that we can review them as if they&#x27;re one. This is because they share many of the same exemptions, reporting, venue choices, and penalties for violations.</p>
+                  </div>
+                </article>
+                
+                <article class="track-card" id="track-56" data-lesson="8" data-track="56">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 56</span>
+                      <h3 class="track-title">Lesson 8, Civil Rights and Fair Housing / Start of Lesson 9</h3>
+                    </div>
+                    <span class="track-duration">7:00</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track56.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track56.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track56.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track56.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  <div class="track-note">[Note: Although indexed under Lesson 8 on the website, the second half of this track concludes Lesson 8 and begins Lesson 9: Taxes.]</div>
+                  <div class="transcript-body">
+                    <p>It&#x27;s a violation to discriminate against any person on the basis of:</p>
+<p>- <strong>Race</strong></p>
+<p>- <strong>Color</strong></p>
+<p>- <strong>Religion</strong></p>
+<p>- <strong>National origin</strong></p>
+<p>- <strong>Age</strong></p>
+<p>- <strong>Sex</strong></p>
+<p>- <strong>Marital status</strong></p>
+<p>- <strong>Familial status</strong></p>
+<p>- Or <strong>mental or physical disabilities</strong>.</p>
+<p>There are three additional protected criteria, but these apply only to employment and not real estate transactions: they are <strong>height</strong> and <strong>weight</strong>, and to preserve the confidentiality of records regarding <strong>arrest or detention</strong> or other disposition in which a conviction does not result.</p>
+<p>Notice, though, that the Michigan laws protect two criteria that are not covered under the federal law: those are <strong>age</strong> and <strong>marital status</strong>.</p>
+<p>The Elliott-Larsen Civil Rights Act was modeled after the federal Civil Rights Act of 1968. The Michigan law has many of the same provisions, such as:</p>
+<p>- It&#x27;s a violation to refuse to negotiate with a person or engage in a real estate transaction</p>
+<p>- Discriminate in the terms or condition or privileges of real estate</p>
+<p>- It&#x27;s illegal to refuse to receive or fail to transmit an offer to rent or to purchase property</p>
+<p>- Represent that available property is not available for inspection, sale, lease</p>
+<p>- Failure to bring a property listing to a person&#x27;s attention</p>
+<p>- Refusal to permit a person to inspect property under reasonable conditions</p>
+<p>- It&#x27;s a violation to advertise directly or indirectly of an intent to make a limitation or discrimination</p>
+<p>- Use of an application form or making of a record of inquiry which indicates a person&#x27;s race, color, religion, national origin, age, sex, marital status, familial status, or mental and physical disability</p>
+<p>- It&#x27;s a violation to offer, solicit, accept, use, or retain a property listing with the understanding that discrimination may occur.</p>
+<p>These laws also prohibit blockbusting and steering, like our federal law does. And like our federal laws, our two Michigan laws have exemptions, such as:</p>
+<p>1. The rental of a unit in a <strong>two-unit structure</strong> is exempt if one of the units is occupied by the owner or a member of the owner&#x27;s immediate family. You&#x27;ll remember that the federal law, for example, is exempt for a four-unit, so our state law is a little bit more strict—it&#x27;s only a two-unit.</p>
+<p>2. The rental of a <strong>room or rooms in a single-family dwelling</strong> by the owners or lessors is exempt if they or a member of their immediate family live there, and in this case immediate family means spouse, parent, child, or sibling.</p>
+<p>3. The rental of a <strong>housing unit for 12 months or less</strong> by the owner or lessor is exempt if it was occupied by him or her and maintained as his or her home for at least <strong>three months</strong> immediately before occupancy by the tenant, and is temporarily vacated while maintaining legal residency there, including subletting. Jeez. To simplify, these would be snowbirds. If you have two legitimate residences, one in Michigan and one in Florida, and you leave your Michigan residence to live in your Florida residence for a while, as long as you&#x27;re coming back to Michigan, while you&#x27;re gone you may lease your Michigan residence out and be exempt from complying with these laws.</p>
+<p>Complainants have <strong>two years</strong> from the date of the alleged discriminatory action against them to take their case to <strong>state court</strong>, or <strong>six months</strong> to take their complaint to the <strong>Michigan Civil Rights Commission</strong>. And the Commission may employ a maximum of a <strong>$50,000</strong> fine.</p>
+<p>End of Lesson 8.</p>
+<p>Lesson 9, Taxes. We talk about three kinds of taxes in the salesperson&#x27;s exam: <strong>transfer taxes</strong>, <strong>real estate taxes</strong>, and <strong>income taxes</strong>.</p>
+<p><strong>Transfer taxes</strong> are paid by the seller of real estate. A seller must pay transfer tax if they want to record the deed. Transfer taxes are $3.75 per $500 of the selling price or fraction thereof. <em>[Note: In Lesson 5, Track 36, the speaker stated $4.30 per $500 ($3.75 state + $0.55 county = $4.30 total in Michigan); here in Lesson 9 he states $3.75 per $500, which is the Michigan state transfer tax rate.]</em> Remember, always round up.</p>
+<p><strong>Real estate taxes</strong>: The first step in calculating real estate taxes is to come up with the <strong>assessed value</strong>. To do that, you take the selling price and multiply that by the assessment; it&#x27;s a percentage. Taxes are then expressed as <strong>mills</strong>. A mill is one-tenth of one cent. You would write one mill as .001 of a dollar. The formula to calculate taxes is assessed value multiplied by the mills. That would give you your dollar amount in property taxes annually.</p>
+<p>Now, <strong>income taxes</strong>. Here are a few things that homeowners may deduct from their federal tax return:</p>
+<p>- <strong>Interest</strong>: Usually all of the interest paid on a loan, such as a mortgage or land contract, is deductible. This also includes <strong>points</strong> which are paid up front.</p>
+<p>- Also deductible is <strong>mortgage prepayment penalty</strong>; this is the amount that your lender may charge you if you pay your mortgage loan off before it&#x27;s due.</p>
+<p>- Also <strong>property taxes</strong>, such as county, city, state, school—these are very deductible.</p>
+<p>- We have something also called the <strong>in-home office deduction</strong>. The expense of an office in the home is deductible; there are many guidelines, though. The office must be used exclusively and on a regular basis as your principal place of business. The amount deducted from your home office expense must not exceed your gross income from that home office business.</p>
+<p>Now, here is the process for calculating your income tax deductions: You add up all of your deductions for things like taxes and interest; you then multiply that by your <strong>tax bracket</strong>. Say, for example, you paid $9,000 in mortgage interest and then $900 in property taxes. You add them up, and that gets you $9,900. This is not the amount that you take off your tax bill, though. There&#x27;s one step you can&#x27;t forget to do: you add up the total amount of the deductions; the next step is to multiply that by your tax bracket. Let&#x27;s say you&#x27;re in the 35% tax bracket, so $9,900 multiplied by .35 gives you $3,465. That&#x27;s the amount you actually save; it saves you your tax bracket.</p>
+<p>In order to understand some of the most recent changes to our tax law, you need to understand the way things used to be. So let&#x27;s go back in time a bit. Many years ago, if you were to sell your principal residence and made a profit on that sale, then you were required to pay a separate tax called a <strong>capital gains tax</strong> on that profit amount—unless you used the profit amount to buy a house of equal or greater value. If you didn&#x27;t buy a house of equal or greater value with that money, then you could get charged a capital gains tax, which could be- <em>[Note: continues in Track 57]</em></p>
+                  </div>
+                </article>
+                
+            </section>
+            
+            <section class="lesson-section" id="lesson-9" data-lesson="9">
+              <div class="lesson-header">
+                <h2>Lesson 9: Taxes (Track 57)</h2>
+                <a class="slide-btn" href="slides/lesson-9-Student-v2.pptx" download>Download Lesson 9 Slides</a>
+              </div>
+              
+                <article class="track-card" id="track-57" data-lesson="9" data-track="57">
+                  <div class="track-header">
+                    <div>
+                      <span class="track-badge">Track 57</span>
+                      <h3 class="track-title">Lesson 9, Taxes</h3>
+                    </div>
+                    <span class="track-duration">1:18</span>
+                  </div>
+                  <div class="audio-bar">
+                    <audio controls preload="none">
+                      <source src="audio/Track57.mp3" type="audio/mpeg">
+                      <source src="https://hollowaysinstitute.biz/wp-content/uploads/Track57.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="audio-links">
+                      <a href="audio/Track57.mp3" download>Local MP3</a>
+                      <span>·</span>
+                      <a href="https://hollowaysinstitute.biz/wp-content/uploads/Track57.mp3" target="_blank" rel="noopener">Remote MP3</a>
+                    </div>
+                  </div>
+                  
+                  <div class="transcript-body">
+                    <p>-thousands of extra dollars in taxes. Then there was a rule called the <strong>once-in-a-lifetime exemption</strong>. Just once in your life, you could elect not to pay these capital gains taxes. This is a very archaic way to do things.</p>
+<p>Now we have a new way of doing things. This all ended with something called the <strong>universal exclusion</strong>. Effective May 7 of 1997, a person may elect to exclude up to <strong>$250,000</strong> of the gain on the sale of their principal residence—<strong>$500,000</strong> married filing jointly. In order to take advantage of the universal exclusion, the home must have been your principal residence for <strong>24 of the last 60 months</strong> <em>[Note: audio sounds like &quot;16 months&quot; or &quot;60 months&quot;, immediately clarified as &quot;two of the last five years&quot;]</em>, or <strong>two of the last five years</strong>, and it can be claimed <strong>once every two years</strong>—not just once in a lifetime anymore.</p>
+<p>Now, remember, please, this lesson is not to be taken as tax advice, for God&#x27;s sake. Please seek out a professional that knows what they&#x27;re doing.</p>
+<p>And with that, this is the end of Lesson 9 and the end of this recording.</p>
+<p>Copyright 2019, Holloway&#x27;s Real Estate Institute, all rights reserved. I&#x27;m Mike Holloway, thanks for listening.</p>
+                  </div>
+                </article>
+                
+            </section>
+            
+  </main>
+
+  <script>
+    const searchInput = document.getElementById('search-input');
+    const matchCount = document.getElementById('match-count');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.track-card');
+    const sections = document.querySelectorAll('.lesson-section');
+    let activeLesson = 'all';
+
+    function applyFilters() {
+      const q = searchInput.value.trim().toLowerCase();
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const lessonMatch = (activeLesson === 'all' || card.dataset.lesson === activeLesson);
+        const textMatch = (!q || card.textContent.toLowerCase().includes(q));
+        const show = lessonMatch && textMatch;
+        card.style.display = show ? '' : 'none';
+        if (show) visibleCount++;
+      });
+
+      sections.forEach(sec => {
+        const hasVisible = Array.from(sec.querySelectorAll('.track-card')).some(c => c.style.display !== 'none');
+        sec.style.display = hasVisible ? '' : 'none';
+      });
+
+      matchCount.textContent = `Showing ${visibleCount} of 57 tracks`;
+    }
+
+    searchInput.addEventListener('input', applyFilters);
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeLesson = btn.dataset.lesson;
+        applyFilters();
+      });
+    });
+  </script>
+</body>
+</html>
