@@ -113,6 +113,53 @@
     main {
       padding: 1.5rem;
     }
+    .toc-panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+    .toc-panel summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: #1e3a8a;
+      font-size: 1.05rem;
+    }
+    .toc-table-wrap {
+      overflow-x: auto;
+      margin-top: 1rem;
+    }
+    .toc-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    .toc-table th, .toc-table td {
+      text-align: left;
+      padding: 0.5rem 0.65rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .toc-table th {
+      background: #f1f5f9;
+      font-weight: 700;
+      color: #0f172a;
+      white-space: nowrap;
+    }
+    .toc-track-link {
+      color: var(--accent);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .toc-track-link:hover {
+      text-decoration: underline;
+    }
+    .toc-duration {
+      font-family: monospace;
+      white-space: nowrap;
+    }
     .lesson-section {
       margin-bottom: 2.5rem;
     }
@@ -215,6 +262,13 @@
     .transcript-body p {
       margin: 0.6rem 0;
     }
+    .transcript-body ul, .transcript-body ol {
+      margin: 0.5rem 0 0.75rem 1.5rem;
+      padding: 0;
+    }
+    .transcript-body li {
+      margin: 0.25rem 0;
+    }
     @media print {
       .controls, .audio-bar, .top-actions, .slide-btn { display: none !important; }
       header { background: none; color: #000; padding: 0 0 1rem 0; border-bottom: 2px solid #000; }
@@ -227,7 +281,7 @@
   <header>
     <div class="container">
       <h1>Holloway's Real Estate Institute — Complete Audio Program Transcripts</h1>
-      <p>Verbatim Transcripts of All 57 Audio Tracks Across Lessons 1–9 (Speaker: Mike Holloway)</p>
+      <p>Verbatim Transcripts of All 57 Audio Tracks Across Lessons 1–9 (Speaker: Mike Holloway · Total Duration: ~1 hr 38 min)</p>
       <div class="top-actions">
         <a class="action-btn" href="Holloways_Real_Estate_Audio_Transcripts.docx" download>Download Word (.docx)</a>
         <a class="action-btn secondary" href="Holloways_Real_Estate_Audio_Transcripts.md" download>Download Markdown (.md)</a>
@@ -249,6 +303,481 @@
   </div>
 
   <main class="container">
+    <details class="toc-panel">
+      <summary>Table of Contents &amp; Master Track Index (All 57 Audio Tracks Across Lessons 1–9)</summary>
+      <div class="toc-table-wrap">
+        <table class="toc-table">
+          <thead>
+            <tr>
+              <th>Track</th>
+              <th>Website Lesson Listing</th>
+              <th>Actual Audio Content</th>
+              <th>Duration</th>
+              <th>Audio File</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              <td><a href="#track-01" class="toc-track-link"><strong>Track 01</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: LARA, Michigan Occupational Code (PA 299 of 1980), Board of Real Estate Brokers &amp; Salespersons</td>
+              <td class="toc-duration">1:40</td>
+              <td><a href="audio/Track01.mp3" download><code>audio/Track01.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-02" class="toc-track-link"><strong>Track 02</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: License Types, Broker/Associate Broker/Salesperson Definitions, Exemptions, Education &amp; Experience Requirements</td>
+              <td class="toc-duration">2:30</td>
+              <td><a href="audio/Track02.mp3" download><code>audio/Track02.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-03" class="toc-track-link"><strong>Track 03</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Pocket Cards, Penalties, Trust/Escrow Accounts (2 Banking Days, Journal &amp; Ledger, $2,000), DBAs, Continuing Education (18 hrs / 3 yrs)</td>
+              <td class="toc-duration">4:03</td>
+              <td><a href="audio/Track03.mp3" download><code>audio/Track03.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-04" class="toc-track-link"><strong>Track 04</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Lapsed Licenses (iCOLA), Transfers, Termination (5 Days Certified Mail), Complaints/Hearings, Branch Offices (25 Miles), Commissions</td>
+              <td class="toc-duration">3:52</td>
+              <td><a href="audio/Track04.mp3" download><code>audio/Track04.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-05" class="toc-track-link"><strong>Track 05</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Advertising Rules (Blind Ads), Licensee Buying/Selling Disclosures, Listing &amp; Purchase Agreements, Title Insurance Recommendation, Trust Account Checks</td>
+              <td class="toc-duration">3:07</td>
+              <td><a href="audio/Track05.mp3" download><code>audio/Track05.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-06" class="toc-track-link"><strong>Track 06</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Truth in Renting Act, Landlord-Tenant Relationship Act (Security Deposit Act — 1.5x Month&#x27;s Rent)</td>
+              <td class="toc-duration">1:38</td>
+              <td><a href="audio/Track06.mp3" download><code>audio/Track06.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-07" class="toc-track-link"><strong>Track 07</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Mortgage Broker, Mortgage Lender, and Mortgage Servicer Licensing Act</td>
+              <td class="toc-duration">0:53</td>
+              <td><a href="audio/Track07.mp3" download><code>audio/Track07.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-08" class="toc-track-link"><strong>Track 08</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Michigan State Housing Development Authority (MSHDA)</td>
+              <td class="toc-duration">0:51</td>
+              <td><a href="audio/Track08.mp3" download><code>audio/Track08.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-09" class="toc-track-link"><strong>Track 09</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Michigan Uniform Securities Act (REITs)</td>
+              <td class="toc-duration">0:16</td>
+              <td><a href="audio/Track09.mp3" download><code>audio/Track09.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-10" class="toc-track-link"><strong>Track 10</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Uniform State Antitrust Act (Price Fixing, Boycotts, Allocations, Tying Agreements)</td>
+              <td class="toc-duration">0:24</td>
+              <td><a href="audio/Track10.mp3" download><code>audio/Track10.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-11" class="toc-track-link"><strong>Track 11</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Dormant Mineral Rights Act (20 Years)</td>
+              <td class="toc-duration">0:18</td>
+              <td><a href="audio/Track11.mp3" download><code>audio/Track11.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-12" class="toc-track-link"><strong>Track 12</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Land Division Act (formerly Subdivision Control Act — 10-Year Re-division Rule)</td>
+              <td class="toc-duration">0:33</td>
+              <td><a href="audio/Track12.mp3" download><code>audio/Track12.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-13" class="toc-track-link"><strong>Track 13</strong></a></td>
+              <td>Lesson 1, Michigan Real Estate law</td>
+              <td>Lesson 1: Michigan Right to Farm Act (End of Lesson 1)</td>
+              <td class="toc-duration">0:23</td>
+              <td><a href="audio/Track13.mp3" download><code>audio/Track13.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-14" class="toc-track-link"><strong>Track 14</strong></a></td>
+              <td>Lesson 2, Brokerage and Marketing</td>
+              <td>Lesson 2: Agency Relationships, Principal/Client, Agent/Fiduciary, Special Agents</td>
+              <td class="toc-duration">0:34</td>
+              <td><a href="audio/Track14.mp3" download><code>audio/Track14.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-15" class="toc-track-link"><strong>Track 15</strong></a></td>
+              <td>Lesson 2, Brokerage and Marketing</td>
+              <td>Lesson 2: Agency Disclosure Form, Seller&#x27;s/Buyer&#x27;s/Dual/Designated Agents</td>
+              <td class="toc-duration">0:34</td>
+              <td><a href="audio/Track15.mp3" download><code>audio/Track15.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-16" class="toc-track-link"><strong>Track 16</strong></a></td>
+              <td>Lesson 2, Brokerage and Marketing</td>
+              <td>Lesson 2: Elements of a Contract, Statute of Frauds, Power of Attorney, Voidable Contracts, Remedies for Breach</td>
+              <td class="toc-duration">1:26</td>
+              <td><a href="audio/Track16.mp3" download><code>audio/Track16.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-17" class="toc-track-link"><strong>Track 17</strong></a></td>
+              <td>Lesson 2, Brokerage and Marketing</td>
+              <td>Lesson 2: Contract Terminology (Liquidated Damages, Execute/Executory/Executed, Acknowledged, Time is of the Essence, Tort, Assignment, Subcontract, Novation, Parol Evidence, Lis Pendens, Puffing, Color of Title)</td>
+              <td class="toc-duration">3:03</td>
+              <td><a href="audio/Track17.mp3" download><code>audio/Track17.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-18" class="toc-track-link"><strong>Track 18</strong></a></td>
+              <td>Lesson 2, Brokerage and Marketing</td>
+              <td>Lesson 2: Listing Agreements (Open, Exclusive Agency, Exclusive Right to Sell), Purchase Agreements, Options, Right of First Refusal, Abstracts &amp; Title Insurance</td>
+              <td class="toc-duration">4:17</td>
+              <td><a href="audio/Track18.mp3" download><code>audio/Track18.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-19" class="toc-track-link"><strong>Track 19</strong></a></td>
+              <td>Lesson 2, Brokerage and Marketing</td>
+              <td>Lesson 2: Mortgage Title Insurance, Stake &amp; Mortgage Surveys, Prorations (Intro)</td>
+              <td class="toc-duration">0:51</td>
+              <td><a href="audio/Track19.mp3" download><code>audio/Track19.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-20" class="toc-track-link"><strong>Track 20</strong></a></td>
+              <td>Lesson 2, Brokerage and Marketing</td>
+              <td>Lesson 2: Prorating Expenses, Settlement Statements (End of Lesson 2)</td>
+              <td class="toc-duration">0:34</td>
+              <td><a href="audio/Track20.mp3" download><code>audio/Track20.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-21" class="toc-track-link"><strong>Track 21</strong></a></td>
+              <td>Lesson 3, Legal descriptions legal Characteristics and Valuation</td>
+              <td>Lesson 3: Real Property vs. Personal Property (Intro)</td>
+              <td class="toc-duration">0:33</td>
+              <td><a href="audio/Track21.mp3" download><code>audio/Track21.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-22" class="toc-track-link"><strong>Track 22</strong></a></td>
+              <td>Lesson 3, Legal descriptions legal Characteristics and Valuation</td>
+              <td>Lesson 3: Personal Property, Constructive Notice vs. Actual Notice, Legal Descriptions (Intro)</td>
+              <td class="toc-duration">1:04</td>
+              <td><a href="audio/Track22.mp3" download><code>audio/Track22.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-23" class="toc-track-link"><strong>Track 23</strong></a></td>
+              <td>Lesson 3, Legal descriptions legal Characteristics and Valuation</td>
+              <td>Lesson 3: Government/Rectangular Survey, Recorded Plat, Metes and Bounds (POB)</td>
+              <td class="toc-duration">1:14</td>
+              <td><a href="audio/Track23.mp3" download><code>audio/Track23.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-24" class="toc-track-link"><strong>Track 24</strong></a></td>
+              <td>Lesson 3, Legal descriptions legal Characteristics and Valuation</td>
+              <td>Lesson 3: Ad Valorem Property Taxes, Assessed Value, Mills (.001), Economic Life</td>
+              <td class="toc-duration">1:11</td>
+              <td><a href="audio/Track24.mp3" download><code>audio/Track24.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-25" class="toc-track-link"><strong>Track 25</strong></a></td>
+              <td>Lesson 3, Legal descriptions legal Characteristics and Valuation</td>
+              <td>Lesson 3: Utility Value, Obsolescence, Appraisal &amp; Market Value</td>
+              <td class="toc-duration">0:45</td>
+              <td><a href="audio/Track25.mp3" download><code>audio/Track25.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-26" class="toc-track-link"><strong>Track 26</strong></a></td>
+              <td>Lesson 3, Legal descriptions legal Characteristics and Valuation</td>
+              <td>Lesson 3: Arm&#x27;s-Length Transaction, Three Causes of Depreciation (Physical, Functional, Economic), Curable vs. Incurable</td>
+              <td class="toc-duration">1:09</td>
+              <td><a href="audio/Track26.mp3" download><code>audio/Track26.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-27" class="toc-track-link"><strong>Track 27</strong></a></td>
+              <td>Lesson 3, Legal descriptions legal Characteristics and Valuation</td>
+              <td>Lesson 3: Four Approaches to Appraisal (Market Comparison, Cost, Capitalization/Income, Gross Rent Multiplier) (End of Lesson 3)</td>
+              <td class="toc-duration">1:11</td>
+              <td><a href="audio/Track27.mp3" download><code>audio/Track27.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-28" class="toc-track-link"><strong>Track 28</strong></a></td>
+              <td>Lesson 4, Rights and Interests in Real Estate</td>
+              <td>Lesson 4: Freehold vs. Leasehold Estates, Fee Simple, Qualified Fee, Life Estates &amp; Waste, Remainderman/Reversioner</td>
+              <td class="toc-duration">2:34</td>
+              <td><a href="audio/Track28.mp3" download><code>audio/Track28.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-29" class="toc-track-link"><strong>Track 29</strong></a></td>
+              <td>Lesson 4, Rights and Interests in Real Estate</td>
+              <td>Lesson 4: Severalty, Tenants in Common, Joint Tenancy (Right of Survivorship &amp; Four Unities), Tenants by the Entirety, License (Intro)</td>
+              <td class="toc-duration">2:42</td>
+              <td><a href="audio/Track29.mp3" download><code>audio/Track29.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-30" class="toc-track-link"><strong>Track 30</strong></a></td>
+              <td>Lesson 4, Rights and Interests in Real Estate</td>
+              <td>Lesson 4: License vs. Easement, Riparian Rights vs. Littoral Rights</td>
+              <td class="toc-duration">0:55</td>
+              <td><a href="audio/Track30.mp3" download><code>audio/Track30.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-31" class="toc-track-link"><strong>Track 31</strong></a></td>
+              <td>Lesson 4, Rights and Interests in Real Estate</td>
+              <td>Lesson 4: Condominiums (Master Deed, Cube of Air, Common Elements) vs. Cooperatives, Government Controls (Taxation, Eminent Domain, Police Power, Escheat), Zoning</td>
+              <td class="toc-duration">1:45</td>
+              <td><a href="audio/Track31.mp3" download><code>audio/Track31.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-32" class="toc-track-link"><strong>Track 32</strong></a></td>
+              <td>Lesson 4, Rights and Interests in Real Estate</td>
+              <td>Lesson 4: Non-Conforming Use in Zoning</td>
+              <td class="toc-duration">0:14</td>
+              <td><a href="audio/Track32.mp3" download><code>audio/Track32.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-33" class="toc-track-link"><strong>Track 33</strong></a></td>
+              <td>Lesson 4, Rights and Interests in Real Estate</td>
+              <td>Lesson 4: Encumbrances, Environmental Hazards (Asbestos, Radon Gas, Lead-Based Paint — Pre-1978)</td>
+              <td class="toc-duration">0:59</td>
+              <td><a href="audio/Track33.mp3" download><code>audio/Track33.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-34" class="toc-track-link"><strong>Track 34</strong></a></td>
+              <td>Lesson 4, Rights and Interests in Real Estate</td>
+              <td>End of Lesson 4; <strong>Start of Lesson 5</strong>: Transferring Interests in Real Estate (Three Ways Title Passes)</td>
+              <td class="toc-duration">0:30</td>
+              <td><a href="audio/Track34.mp3" download><code>audio/Track34.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-35" class="toc-track-link"><strong>Track 35</strong></a></td>
+              <td>Lesson 5, Transferring Interests in Real Estate</td>
+              <td>Lesson 5: Heirs (Intestate) vs. Devisees (Will), Adverse Possession (15 Years in Michigan: Open, Continuous, Notorious, Hostile)</td>
+              <td class="toc-duration">0:54</td>
+              <td><a href="audio/Track35.mp3" download><code>audio/Track35.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-36" class="toc-track-link"><strong>Track 36</strong></a></td>
+              <td>Lesson 5, Transferring Interests in Real Estate</td>
+              <td>Lesson 5: Deeds (Required Elements, Delivery &amp; Acceptance, Consideration, Recording, Transfer Tax)</td>
+              <td class="toc-duration">1:10</td>
+              <td><a href="audio/Track36.mp3" download><code>audio/Track36.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-37" class="toc-track-link"><strong>Track 37</strong></a></td>
+              <td>Lesson 5, Transferring Interests in Real Estate</td>
+              <td>Lesson 5: General Warranty Deed &amp; Five Covenants/Warranties (Seisin, Quiet Enjoyment, Further Assurance, Against Encumbrances, Warranty Forever)</td>
+              <td class="toc-duration">1:15</td>
+              <td><a href="audio/Track37.mp3" download><code>audio/Track37.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-38" class="toc-track-link"><strong>Track 38</strong></a></td>
+              <td>Lesson 5, Transferring Interests in Real Estate</td>
+              <td>Lesson 5: Special Warranty Deed, Quitclaim Deed</td>
+              <td class="toc-duration">0:50</td>
+              <td><a href="audio/Track38.mp3" download><code>audio/Track38.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-39" class="toc-track-link"><strong>Track 39</strong></a></td>
+              <td>Lesson 5, Transferring Interests in Real Estate</td>
+              <td>Lesson 5: Special-Purpose Deeds (Gift Deed, Sheriff&#x27;s Deed, Guardian&#x27;s/Conservator&#x27;s Deed, Deed in Lieu of Foreclosure, Corrections Deed / Deed of Confirmation) (End of Lesson 5 and Disc 1)</td>
+              <td class="toc-duration">1:57</td>
+              <td><a href="audio/Track39.mp3" download><code>audio/Track39.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-40" class="toc-track-link"><strong>Track 40</strong></a></td>
+              <td>Lesson 6, Property Management</td>
+              <td>Lesson 6: Property Management Licensing &amp; Two Exemptions, Lease vs. Rent</td>
+              <td class="toc-duration">1:53</td>
+              <td><a href="audio/Track40.mp3" download><code>audio/Track40.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-41" class="toc-track-link"><strong>Track 41</strong></a></td>
+              <td>Lesson 6, Property Management</td>
+              <td>Lesson 6: Lease Contracts (Written vs. Oral — 1 Year or Less), Freehold vs. Leasehold Review</td>
+              <td class="toc-duration">0:43</td>
+              <td><a href="audio/Track41.mp3" download><code>audio/Track41.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-42" class="toc-track-link"><strong>Track 42</strong></a></td>
+              <td>Lesson 6, Property Management</td>
+              <td>Lesson 6: Four Types of Leasehold Estates (Overview)</td>
+              <td class="toc-duration">0:27</td>
+              <td><a href="audio/Track42.mp3" download><code>audio/Track42.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-43" class="toc-track-link"><strong>Track 43</strong></a></td>
+              <td>Lesson 6, Property Management</td>
+              <td>Lesson 6: Meaning of &quot;Year&quot; in Leasehold Estates, Estate from Year to Year, Estate for Years (Intro)</td>
+              <td class="toc-duration">1:03</td>
+              <td><a href="audio/Track43.mp3" download><code>audio/Track43.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-44" class="toc-track-link"><strong>Track 44</strong></a></td>
+              <td>Lesson 6, Property Management</td>
+              <td>Lesson 6: Estate for Years (Cont.), Estate at Will</td>
+              <td class="toc-duration">0:46</td>
+              <td><a href="audio/Track44.mp3" download><code>audio/Track44.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-45" class="toc-track-link"><strong>Track 45</strong></a></td>
+              <td>Lesson 6, Property Management</td>
+              <td>Lesson 6: Estate at Sufferance, Gross Lease vs. Net Lease</td>
+              <td class="toc-duration">1:15</td>
+              <td><a href="audio/Track45.mp3" download><code>audio/Track45.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-46" class="toc-track-link"><strong>Track 46</strong></a></td>
+              <td>Lesson 6, Property Management</td>
+              <td>Lesson 6: Percentage Lease, Graduated Lease, Escalation Clause, Sale and Leaseback, Percentage of Profit/Loss (Intro)</td>
+              <td class="toc-duration">2:20</td>
+              <td><a href="audio/Track46.mp3" download><code>audio/Track46.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-47" class="toc-track-link"><strong>Track 47</strong></a></td>
+              <td>Lesson 6, Property Management</td>
+              <td>End of Lesson 6; <strong>Start of Lesson 7</strong>: Financing Real Estate (Mortgage &amp; Promissory Note, Recording, Loan-to-Value Ratio, Primary vs. Secondary Mortgage Market)</td>
+              <td class="toc-duration">3:04</td>
+              <td><a href="audio/Track47.mp3" download><code>audio/Track47.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-48" class="toc-track-link"><strong>Track 48</strong></a></td>
+              <td>Lesson 7, Financing</td>
+              <td>Lesson 7: Secondary Market (Fannie Mae, Ginnie Mae, Freddie Mac), Discount Points, Term/Straight Loan, Amortization, Balloon Payment, Budget/Escrow Mortgage, Lien vs. Title Theory, ARM, Construction &amp; Blanket Loans, Mortgage Clauses (Due-on-Sale, Acceleration, Power of Sale, Defeasance, Prepayment), FHA/VA/PMI, Redemption Period (6 / 12 Months), Deed of Trust, Land Contract, Wraparound Mortgage, Usury, Truth in Lending (Reg Z), TRID (Intro)</td>
+              <td class="toc-duration">8:24</td>
+              <td><a href="audio/Track48.mp3" download><code>audio/Track48.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-49" class="toc-track-link"><strong>Track 49</strong></a></td>
+              <td>Lesson 7, Financing</td>
+              <td>Lesson 7: TRID (Loan Estimate &amp; Closing Disclosure), Equal Credit Opportunity Act (ECOA) (End of Lesson 7)</td>
+              <td class="toc-duration">1:23</td>
+              <td><a href="audio/Track49.mp3" download><code>audio/Track49.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-50" class="toc-track-link"><strong>Track 50</strong></a></td>
+              <td>Lesson 8, Civil Rights and Fair Housing</td>
+              <td>Lesson 8: Overview of Six Civil Rights Laws (4 Federal, 2 State), Legal vs. Illegal Discrimination, Civil Rights Act of 1866 (Intro)</td>
+              <td class="toc-duration">2:07</td>
+              <td><a href="audio/Track50.mp3" download><code>audio/Track50.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-51" class="toc-track-link"><strong>Track 51</strong></a></td>
+              <td>Lesson 8, Civil Rights and Fair Housing</td>
+              <td>Lesson 8: Civil Rights Act of 1866 (Race Alone, No Limit on Punitive Damages, 2 Years), Civil Rights Act of 1968 / 1988 (Title VIII / Fair Housing Act — 7 Protected Classes &amp; Violations)</td>
+              <td class="toc-duration">2:55</td>
+              <td><a href="audio/Track51.mp3" download><code>audio/Track51.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-52" class="toc-track-link"><strong>Track 52</strong></a></td>
+              <td>Lesson 8, Civil Rights and Fair Housing</td>
+              <td>Lesson 8: Fair Housing Violations (Cont.), Exemptions, Senior Housing (62+ and 55+ Rules), Prohibition on Discriminatory Advertising, Blockbusting (Panic Peddling)</td>
+              <td class="toc-duration">3:01</td>
+              <td><a href="audio/Track52.mp3" download><code>audio/Track52.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-53" class="toc-track-link"><strong>Track 53</strong></a></td>
+              <td>Lesson 8, Civil Rights and Fair Housing</td>
+              <td>Lesson 8: Blockbusting (Cont.), Steering &amp; Positive Discrimination, Additional Fair Housing Exemptions (Mrs. Murphy 4-Unit, Religious, Private Club), Disability Modifications, HUD Enforcement (1 Year, $100,000 Max Fine), Americans with Disabilities Act of 1990 (ADA — Intro)</td>
+              <td class="toc-duration">2:58</td>
+              <td><a href="audio/Track53.mp3" download><code>audio/Track53.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-54" class="toc-track-link"><strong>Track 54</strong></a></td>
+              <td>Lesson 8, Civil Rights and Fair Housing</td>
+              <td>Lesson 8: ADA Definition of Disability (Physical &amp; Mental Impairments, Exemptions)</td>
+              <td class="toc-duration">0:53</td>
+              <td><a href="audio/Track54.mp3" download><code>audio/Track54.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-55" class="toc-track-link"><strong>Track 55</strong></a></td>
+              <td>Lesson 8, Civil Rights and Fair Housing</td>
+              <td>Lesson 8: ADA Violations &amp; Penalties ($50,000 / $100,000), Equal Credit Opportunity Act of 1974 (ECOA — Protected Classes &amp; 30-Day Written Notice), Michigan Civil Rights Laws Intro (Elliott-Larsen &amp; Persons with Disabilities Civil Rights Acts of 1976)</td>
+              <td class="toc-duration">2:23</td>
+              <td><a href="audio/Track55.mp3" download><code>audio/Track55.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-56" class="toc-track-link"><strong>Track 56</strong></a></td>
+              <td>Lesson 8, Civil Rights and Fair Housing</td>
+              <td>Lesson 8: Michigan Protected Classes (Adds Age &amp; Marital Status; Height/Weight/Arrest Record in Employment), Violations, Exemptions (2-Unit Owner-Occupied, Room Rental, Snowbird 12-Month Rule), Enforcement (2 Yrs State Court / 6 Mos MCRC, $50,000 Max Fine); End of Lesson 8; <strong>Start of Lesson 9</strong>: Taxes (Transfer Tax, Property Tax / Mills, Income Tax Deductions &amp; Tax Bracket Calculation, Capital Gains History)</td>
+              <td class="toc-duration">7:00</td>
+              <td><a href="audio/Track56.mp3" download><code>audio/Track56.mp3</code></a></td>
+            </tr>
+            
+            <tr>
+              <td><a href="#track-57" class="toc-track-link"><strong>Track 57</strong></a></td>
+              <td>Lesson 9, Taxes</td>
+              <td>Lesson 9: Capital Gains Universal Exclusion ($250,000 Single / $500,000 Married Filing Jointly, 2 of Last 5 Years) (End of Lesson 9 &amp; Recording)</td>
+              <td class="toc-duration">1:18</td>
+              <td><a href="audio/Track57.mp3" download><code>audio/Track57.mp3</code></a></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </details>
     
             <section class="lesson-section" id="lesson-1" data-lesson="1">
               <div class="lesson-header">
@@ -1079,10 +1608,12 @@
                     <p><strong>Severalty</strong>—sever all ties. This is ownership by one person only. If you break up the word severalty down into its syllables, it&#x27;s sever-al-ty, sever all ties. That&#x27;s what this person has done: severed all ties with everybody else and they own property all by themselves—severalty. Upon the death of a tenant in severalty, the property descends to his or her heirs or devisees.</p>
 <p><strong>Tenants in common</strong>: Ownership by two or more persons. Upon the death of a tenant in common, his or her interest in the property descends to the deceased&#x27;s heirs or devisees. You are allowed to have dissimilar proportions of ownership; one person can own 10%, another person can own 14%, and so on. Tenants in common requires the <strong>unity of possession</strong>, and here&#x27;s what that means: Each owner owns an undivided fractional interest in the property. You&#x27;d own a third interest or an eighth interest, it doesn&#x27;t matter; the physical property, however, is not divided up. You would own your proportional share of every doorknob, every fiber in the carpet, for example.</p>
 <p>Now, <strong>joint tenancy</strong>: Ownership by two or more persons, but includes what&#x27;s called the <strong>right of survivorship</strong>. Upon the death of a joint tenant, his or her share of the property is divided among the surviving owners only. If one of the owners passes away, their interest does not descend to their heirs or devisees; you can&#x27;t will your interest to somebody else. It automatically increases the value of the surviving joint owners. Also requires the unities of possession, interest, time, and title.</p>
-<p>- The <strong>unity of possession</strong> means each owner, again, owns an undivided fractional interest.</p>
-<p>- The <strong>unity of interest</strong> means each owner must own exactly the same percentage of the property; if there are three owners, each must own a third, and so on.</p>
-<p>- The <strong>unity of time</strong> means each owner must take possession at the same time.</p>
-<p>- The <strong>unity of title</strong>: Each owner must own exactly in the same way; two people can&#x27;t own in common and two others own in joint.</p>
+<ul>
+<li>The <strong>unity of possession</strong> means each owner, again, owns an undivided fractional interest.</li>
+<li>The <strong>unity of interest</strong> means each owner must own exactly the same percentage of the property; if there are three owners, each must own a third, and so on.</li>
+<li>The <strong>unity of time</strong> means each owner must take possession at the same time.</li>
+<li>The <strong>unity of title</strong>: Each owner must own exactly in the same way; two people can&#x27;t own in common and two others own in joint.</li>
+</ul>
 <p><strong>Tenants by the entirety</strong> is set up between husband and wife. This is a specific type of joint tenancy. Upon the death of either spouse, the property will belong to the surviving spouse. It requires the unities of possession, interest, time, and title just like joint tenancy, but it also includes something called the <strong>unity of person</strong>. The marital unit is looked upon as being one single entity. Each is said to own 100%.</p>
 <p>A <strong>license</strong> is a personal privilege to use somebody else&#x27;s property for a specific purpose. Because it&#x27;s a privilege, it&#x27;s revocable.</p>
                   </div>
@@ -1140,9 +1671,11 @@
                     <p>Multi-unit complexes are sometimes set up as <strong>condominiums</strong> or <strong>cooperatives</strong>. If the property is going to be a condominium, the developer files something called a <strong>master deed</strong> that actually divides the property up into separate ownership for each of the units and separate ownership for all of the common elements. Each person that buys one of the units will own exclusively that unit&#x27;s cube of air. Additionally, the owner will share in the ownership of the common elements as tenants in common with all the other owners. When you own a condominium, you actually own real property. It might be in a multi-unit, multi-story building, but you do own your individual lot of air.</p>
 <p>In a <strong>cooperative</strong>, you own shares of stock in the corporation that owns the building. Then, you&#x27;re allowed to lease one of the units. Only shareholders are allowed to be tenants. In a cooperative, though, you do not own any real estate like you do in a condominium. Both condominiums and cooperatives have owners&#x27; associations; they handle maintenance of the common elements and the like.</p>
 <p>Now, property ownership has many restrictions, some of which are private, such as deed restrictions, but many restrictions are placed by the government. Some government controls include:</p>
-<p>- <strong>Property taxation</strong></p>
-<p>- <strong>Eminent domain</strong>, the right to take private property for public use</p>
-<p>- Various <strong>police powers</strong> of the state, such as zoning, building code restrictions, escheat laws. <strong>Escheat</strong> is the state&#x27;s right to take abandoned property whenever the owner has died and left no heirs.</p>
+<ul>
+<li><strong>Property taxation</strong></li>
+<li><strong>Eminent domain</strong>, the right to take private property for public use</li>
+<li>Various <strong>police powers</strong> of the state, such as zoning, building code restrictions, escheat laws. <strong>Escheat</strong> is the state&#x27;s right to take abandoned property whenever the owner has died and left no heirs.</li>
+</ul>
 <p><strong>Zoning rules</strong> are established and enforced by the local government. They determine which property shall be used as residential, commercial, or industrial.</p>
                   </div>
                 </article>
@@ -1257,10 +1790,12 @@
                   <div class="transcript-body">
                     <p>An <strong>heir</strong> is a blood relative. When you pass away without a will, which is called <strong>intestate</strong>, the probate court would find your blood relatives and they would inherit your property. A <strong>devisee</strong>, on the other hand, is someone who receives real estate through a will.</p>
 <p>It&#x27;s possible to lose rights in property if someone else holds open, continuous, notorious, and hostile possession of the property. This is called <strong>adverse possession</strong>, and after a statutory period of time, such as 15 years in Michigan, the court may give the title to the adverse possession claimant.</p>
-<p>- The claimant must use the property in an <strong>open</strong> and visible manner.</p>
-<p>- The use has to be <strong>continuous</strong> and not stopped.</p>
-<p>- <strong>Notorious</strong> means the claim must be made publicly.</p>
-<p>- And <strong>hostile</strong> means that the claimant is in opposition to the actual owners.</p>
+<ul>
+<li>The claimant must use the property in an <strong>open</strong> and visible manner.</li>
+<li>The use has to be <strong>continuous</strong> and not stopped.</li>
+<li><strong>Notorious</strong> means the claim must be made publicly.</li>
+<li>And <strong>hostile</strong> means that the claimant is in opposition to the actual owners.</li>
+</ul>
                   </div>
                 </article>
                 
@@ -1287,11 +1822,13 @@
                   <div class="transcript-body">
                     <p>A <strong>deed</strong> is a written document that conveys title from one person to another. Each time the property is conveyed by a deed, a new deed is drawn up; the previous deed is not reused.</p>
 <p>A deed must contain:</p>
-<p>- The names of the grantor and the grantee</p>
-<p>- The grantor&#x27;s signature—grantees never sign deeds</p>
-<p>- The consideration, which does not necessarily have to be money</p>
-<p>- A legal description—a street address won&#x27;t do</p>
-<p>- And finally, words of conveyance.</p>
+<ul>
+<li>The names of the grantor and the grantee</li>
+<li>The grantor&#x27;s signature—grantees never sign deeds</li>
+<li>The consideration, which does not necessarily have to be money</li>
+<li>A legal description—a street address won&#x27;t do</li>
+<li>And finally, words of conveyance.</li>
+</ul>
 <p>Title actually passes when a deed is voluntarily delivered and voluntarily accepted—not when it&#x27;s signed or recorded, but when it&#x27;s delivered and accepted.</p>
 <p>The consideration used in a deed could be money, it could be love and affection, or even $1 with the signing of a secret affidavit.</p>
 <p>Although nothing is required to be recorded at the Register of Deeds office, it&#x27;s good to do so. Deeds are recorded at the Register of Deeds office in the county where the property is located. The seller must pay <strong>transfer tax</strong>, which is calculated as $4.30 per $500 or fraction thereof. You always round up on transfer tax.</p>
@@ -1322,11 +1859,13 @@
                     <p>For a deed to be valid, it does not have to be recorded. Nothing is required to be recorded; it&#x27;s just a very, very, very good idea to do so.</p>
 <p>There are three basic types of deed: general warranty, special warranty, and quitclaim.</p>
 <p>A <strong>general warranty deed</strong>: This deed contains all five of what we call covenants and warranties, and is the one most widely used. A warranty deed gives the grantee the most protection by providing five promises or warranties within the actual context of the deed:</p>
-<p>1. The first one is <strong>seisin</strong>: This means the seller, the grantor, really does own the property, so I have the right to sell it to you.</p>
-<p>2. Two, <strong>quiet enjoyment</strong>: You&#x27;ll not be bothered by other people claiming title.</p>
-<p>3. Three, <strong>further assurance</strong>: The grantor promises to provide any other documentation to prove ownership in the future if necessary.</p>
-<p>4. <strong>Against encumbrances</strong>—remember, an encumbrance is anything that lessens your control: The property is free of encumbrances except those listed in the deed.</p>
-<p>5. And then the fifth covenant or warranty is <strong>warranty forever</strong>: The grantor promises to compensate the buyer if title turns out not to be good.</p>
+<ol>
+<li>The first one is <strong>seisin</strong>: This means the seller, the grantor, really does own the property, so I have the right to sell it to you.</li>
+<li>Two, <strong>quiet enjoyment</strong>: You&#x27;ll not be bothered by other people claiming title.</li>
+<li>Three, <strong>further assurance</strong>: The grantor promises to provide any other documentation to prove ownership in the future if necessary.</li>
+<li><strong>Against encumbrances</strong>—remember, an encumbrance is anything that lessens your control: The property is free of encumbrances except those listed in the deed.</li>
+<li>And then the fifth covenant or warranty is <strong>warranty forever</strong>: The grantor promises to compensate the buyer if title turns out not to be good.</li>
+</ol>
                   </div>
                 </article>
                 
@@ -1379,10 +1918,12 @@
                   <div class="transcript-body">
                     <p>We actually use quitclaim deeds to cure those clouds.</p>
 <p>Now, we have some special-purpose deeds:</p>
-<p>- A <strong>gift deed</strong>: This could be warranty, special warranty, quitclaim, it doesn&#x27;t matter, but if the consideration is love and affection, we just call it a gift deed.</p>
-<p>- Foreclosure auctions are normally done at the county courthouse by the county sheriff or referee. Whenever you have a <strong>sheriff&#x27;s deed</strong>, this is the type of deed issued by <em>[Note: speaker says &quot;by&quot;, meaning &quot;to&quot;]</em> the buyer of real estate sold through a foreclosure sale. This deed states the source of the sheriff or referee&#x27;s authority and the amount of the consideration. This deed at most contains only one covenant: the sheriff or referee has not encumbered the property at all.</p>
-<p>- <strong>Guardian&#x27;s deed, or conservator&#x27;s deed</strong>: This deed is used to convey a minor&#x27;s interest in real property or the interest of an incapacitated person. The deed must state the source of the guardian&#x27;s authority, and it usually contains only one warranty: that the guardian warrants that neither the guardian nor the minor or incapacitated person has encumbered the title.</p>
-<p>- <strong>Deed in lieu of foreclosure</strong>: A deed to the lender given by an owner conveying mortgaged property in which the mortgage is in default. It&#x27;s an alternative to a foreclosure action.</p>
+<ul>
+<li>A <strong>gift deed</strong>: This could be warranty, special warranty, quitclaim, it doesn&#x27;t matter, but if the consideration is love and affection, we just call it a gift deed.</li>
+<li>Foreclosure auctions are normally done at the county courthouse by the county sheriff or referee. Whenever you have a <strong>sheriff&#x27;s deed</strong>, this is the type of deed issued by <em>[Note: speaker says &quot;by&quot;, meaning &quot;to&quot;]</em> the buyer of real estate sold through a foreclosure sale. This deed states the source of the sheriff or referee&#x27;s authority and the amount of the consideration. This deed at most contains only one covenant: the sheriff or referee has not encumbered the property at all.</li>
+<li><strong>Guardian&#x27;s deed, or conservator&#x27;s deed</strong>: This deed is used to convey a minor&#x27;s interest in real property or the interest of an incapacitated person. The deed must state the source of the guardian&#x27;s authority, and it usually contains only one warranty: that the guardian warrants that neither the guardian nor the minor or incapacitated person has encumbered the title.</li>
+<li><strong>Deed in lieu of foreclosure</strong>: A deed to the lender given by an owner conveying mortgaged property in which the mortgage is in default. It&#x27;s an alternative to a foreclosure action.</li>
+</ul>
 <p>Once something gets recorded, it&#x27;s never unrecorded. So if I was to record a document with an error in it—say, an error in spelling of a name or an error in the address—I can&#x27;t just take it out and fix it and put it back. I normally have to issue something called a <strong>corrections deed</strong>, also called a <strong>deed of confirmation</strong>. It&#x27;s used to correct an error in a previous deed. The most common errors are, like I said, misspelled names and mistakes in the property description. A quitclaim deed usually is used for this purpose, with a statement regarding the error.</p>
 <p>End of Lesson 5 and Disc 1.</p>
                   </div>
@@ -1419,8 +1960,10 @@
                   <div class="transcript-body">
                     <p>Lesson 6, Property Management. If you want to manage property that&#x27;s owned by somebody else for a fee, then you have to have a broker&#x27;s license or be licensed under a real estate broker. As we learned in Lesson 1, Michigan never really created a property manager&#x27;s license, so we rely on the real estate licenses. Property management companies are actually real estate companies; there&#x27;s a broker, associate broker, and salespersons.</p>
 <p>But not all property management situations require a real estate license, though. There are two exemptions for licensure, and both have to do with liability:</p>
-<p>1. First, if you own the property and want to turn it into a rental, then you don&#x27;t have to be licensed. You own it, you&#x27;re the manager, so you&#x27;re responsible; if you do something wrong, then you&#x27;re liable for it.</p>
-<p>2. Second, if you own the property and you hire a direct employee to manage the property, then the employee does not have to be licensed. If the employee mismanages the property, the owner still gets in trouble; the owner is still liable.</p>
+<ol>
+<li>First, if you own the property and want to turn it into a rental, then you don&#x27;t have to be licensed. You own it, you&#x27;re the manager, so you&#x27;re responsible; if you do something wrong, then you&#x27;re liable for it.</li>
+<li>Second, if you own the property and you hire a direct employee to manage the property, then the employee does not have to be licensed. If the employee mismanages the property, the owner still gets in trouble; the owner is still liable.</li>
+</ol>
 <p>If the owner of a rental property, though, wants to hire somebody and be completely free of liability from its management, then he&#x27;d have to hire a licensed real estate agent as a property manager. The property manager would be then liable.</p>
 <p>Let&#x27;s make sure that we know the difference between two words that are commonly used interchangeably, but actually mean distinctly different things: <strong>lease</strong> and <strong>rent</strong>. In vernacular English, conversational English, it&#x27;s acceptable to use them as synonyms, words that mean the same thing. For example, &quot;I&#x27;m going to lease a car, I&#x27;m going to rent a car&quot;—same thing. &quot;I&#x27;m going to lease this house, I&#x27;m renting this house&quot;—same thing. Here&#x27;s how it actually works, though: a lease is a contract, and rent is the consideration in the agreement. So a lease is what you have, and rent is what you pay. On the state exam, it&#x27;s often just assumed that property managers get a percentage of the gross rent.</p>
                   </div>
@@ -1474,10 +2017,12 @@
                   
                   <div class="transcript-body">
                     <p>You may also remember from Lesson 4 that we talked about freehold estates, and I said that we had three types: fee simple, qualified fee, and life estates. Well, in leasehold category, we have something similar, only there are four. They are:</p>
-<p>- Estate from year to year</p>
-<p>- Estate for years</p>
-<p>- Estate at will</p>
-<p>- And an estate at sufferance.</p>
+<ul>
+<li>Estate from year to year</li>
+<li>Estate for years</li>
+<li>Estate at will</li>
+<li>And an estate at sufferance.</li>
+</ul>
 <p>Each of these has its own characteristics.</p>
                   </div>
                 </article>
@@ -1558,8 +2103,10 @@
                   <div class="transcript-body">
                     <p>Finally and fourthly, we have the <strong>estate at sufferance</strong>. As the name suggests, someone is suffering; in this case, it just happens to be the landlord. This is a situation where a tenant has gained possession lawfully, but is now unlawfully occupying the property. The lease has expired, they just won&#x27;t leave—estate at sufferance.</p>
 <p>Leases can be classified in a number of different ways. One method is the distinction between a <strong>gross lease</strong> and a <strong>net lease</strong>.</p>
-<p>- In a <strong>gross lease</strong>, the tenant pays rent and the landlord pays the ownership expenses—ownership expenses being things like property taxes, homeowners insurance, and maintenance or major repairs. So in a gross lease, the tenant gives the landlord the gross amount of rent, and the landlord uses that extra money to actually pay the ownership expenses. This is normally associated with residential leases.</p>
-<p>- In a <strong>net lease</strong>, though, the tenant pays rent and these ownership expenses, and what the rent ends up being paid to the landlord is the landlord&#x27;s net after these expenses have been paid. And keep in mind, too, we&#x27;re only talking about property taxes, homeowners insurance, and maintenance.</p>
+<ul>
+<li>In a <strong>gross lease</strong>, the tenant pays rent and the landlord pays the ownership expenses—ownership expenses being things like property taxes, homeowners insurance, and maintenance or major repairs. So in a gross lease, the tenant gives the landlord the gross amount of rent, and the landlord uses that extra money to actually pay the ownership expenses. This is normally associated with residential leases.</li>
+<li>In a <strong>net lease</strong>, though, the tenant pays rent and these ownership expenses, and what the rent ends up being paid to the landlord is the landlord&#x27;s net after these expenses have been paid. And keep in mind, too, we&#x27;re only talking about property taxes, homeowners insurance, and maintenance.</li>
+</ul>
 <p>Re- <em>[Note: word splits across Track 45 and Track 46: &quot;Retail&quot;]</em></p>
                   </div>
                 </article>
@@ -1585,10 +2132,10 @@
                   </div>
                   
                   <div class="transcript-body">
-                    <p>-tail store owners sometimes use something called a <strong>percentage lease</strong>. A percentage lease usually charges the tenant an agreed-upon minimum rent, often based on square footage—so many dollars per month per square foot—and then a percentage of the gross sales.</p>
+                    <p>-tail store owners sometimes use something called a <strong>percentage lease</strong>. A percentage lease usually charges the tenant an agreed-upon minimum rent, often based on square footage—with so many dollars per month per square foot—and then a percentage of the gross sales.</p>
 <p>Landlords who are concerned with increasing expenses on their rental properties may use a <strong>graduated lease</strong>. The rent increases by step-by-step installments as per the lease agreement. Both the tenant and the landlord know how much the rent&#x27;s going to go up, and they&#x27;re both in agreement with it. Let&#x27;s say you sign a 10-year lease in a commercial situation with a tenant. For 10 years, you&#x27;re probably going to want the rent to go up over the course of a decade, so you agree to this increase in advance with a graduated lease. What normally happens is you&#x27;ll say, &quot;Okay, every January 1st, the rent will increase 1.25%.&quot; Everybody agrees to it.</p>
 <p>There is another way, though, for landlords to deal with increases in expenses: they might use an <strong>escalation clause</strong> in a lease. An escalation clause in a lease agreement: if for some reason the landlord&#x27;s expenses go up—with, say, a special assessment or increases in property taxes—the escalation clause would allow the rent to go up a certain amount. The amount is not a predetermined amount, and there are usually safeguards built into the lease agreement to limit the amount the rent can increase and for what reasons.</p>
-<p>Many retail companies want to design and build their own buildings to meet their needs, but don&#x27;t want their money to be tied up in real estate because they need it to buy goods they sell—or buy the goods they sell. In this situation, they often use a <strong>sale and leaseback</strong>. The company has a building built where they want it and how they want it, but now they&#x27;re out of money. And so they need to hire their initial employees and stock the shelves. So in other words, they need to find a way to extend their startup capital. Here&#x27;s how a sale and leaseback works: The company finds a real estate investor and then sells them the brand-new building, and then takes back a long-term net lease. The money they get in the sale is used to hire employees and stock the shelves.</p>
+<p>Many retail companies want to design and build their own buildings to meet their needs, but don&#x27;t want their money to be tied up in real estate because they need it to buy goods they sell—or buy the goods they sell. In this situation, they often use a <strong>sale and leaseback</strong>. The company has a building built where they want it and how they want it, but now they&#x27;re out of money. And so they need to hire their initial employees and stock the shelves. So in other words, they need to find a way to extend their startup capital. Here&#x27;s how a sale and leaseback works: The company finds a real estate investor and then sells them the brand-new building, and then take back a long-term net lease. The money they get in the sale is used to hire employees and stock the shelves.</p>
 <p>If someone was a real estate investor and wanted to calculate what percentage of profit or loss that they made in an investment, it could be done like this: You could calculate the amo- <em>[Note: word splits across Track 46 and Track 47: &quot;amount&quot;]</em></p>
                   </div>
                 </article>
@@ -1617,13 +2164,17 @@
                     <p>-unt of money that you made or lost in dollars, and then divide that into their investment. The resulting number would be their percentage of profit or their percentage of loss.</p>
 <p>End of Lesson 6.</p>
 <p>Lesson 7, Financing Real Estate. There are many different ways to finance the purchase of real estate. A <strong>mortgage loan</strong> is one of the most common. This type of loan uses the property you&#x27;re about to buy as the collateral for the loan. The lender gives the money to the borrower, and the borrower purchases the property. The lender requires the borrower to sign a mortgage loan contract. This contract consists of two parts: the <strong>mortgage</strong> and the <strong>note</strong>.</p>
-<p>- The <strong>mortgage</strong> is a document which pledges the property as collateral. It&#x27;s the borrower telling the bank in writing that they can sell the property and keep the proceeds if they don&#x27;t pay the money back.</p>
-<p>- The second part to this contract is the <strong>note</strong>; it&#x27;s actually called the <strong>promissory note</strong>. This document has all the details of the loan on it: the amount, the payoff schedule, interest rate, and such. It also contains a statement in which the borrower promises to pay the money back personally.</p>
+<ul>
+<li>The <strong>mortgage</strong> is a document which pledges the property as collateral. It&#x27;s the borrower telling the bank in writing that they can sell the property and keep the proceeds if they don&#x27;t pay the money back.</li>
+<li>The second part to this contract is the <strong>note</strong>; it&#x27;s actually called the <strong>promissory note</strong>. This document has all the details of the loan on it: the amount, the payoff schedule, interest rate, and such. It also contains a statement in which the borrower promises to pay the money back personally.</li>
+</ul>
 <p>The borrower signs this contract and gives it to the bank. The bank then records the mortgage portion. It&#x27;s the process of recording the mortgage that actually creates the lien against the property, allowing the bank to sell it if the loan is not paid back. Recording the document also gives notice to the public of the bank&#x27;s interest in the property, and the date recorded also determines the lien&#x27;s priority in case of a default.</p>
 <p>An appraisal is normally done to determine the value of the property. Lenders prefer not to loan 100% of the property&#x27;s value; instead, they&#x27;d rather have the buyer be somewhat personally invested in the way of a down payment. If the borrower puts 10% down on the purchase price and the bank finances 90%, this would be a <strong>90% loan-to-value ratio</strong>.</p>
 <p>Years ago, if you borrowed money from your local bank, they would hold on to that loan and make money on the interest. That&#x27;s really not how it&#x27;s done anymore. There are actually two steps to the mortgage loan process: the <strong>primary market</strong> and the <strong>secondary market</strong>.</p>
-<p>- The <strong>primary market</strong> is between you and your local bank. Your bank gets a fee for originating or creating the mortgage loan—usually 1% of the mortgage amount. So for originating an $80,000 mortgage loan, your bank gets 800 bucks.</p>
-<p>- Your local bank does not keep the mortgage loan and make money off the interest; instead, they sell the loan to huge investors in what&#x27;s called the <strong>secondary mortgage market</strong>. These secondary buyers are congressionally sanctioned corporations. Your local bank sells your loan to the secondary mortgage market, and these investors make their money on interest. Your local bank makes some money when they sell the loan, though. The lender essentially acts as a middleman between the borrower and the secondary mortgage market investor.</p>
+<ul>
+<li>The <strong>primary market</strong> is between you and your local bank. Your bank gets a fee for originating or creating the mortgage loan—usually 1% of the mortgage amount. So for originating an $80,000 mortgage loan, your bank gets 800 bucks.</li>
+<li>Your local bank does not keep the mortgage loan and make money off the interest; instead, they sell the loan to huge investors in what&#x27;s called the <strong>secondary mortgage market</strong>. These secondary buyers are congressionally sanctioned corporations. Your local bank sells your loan to the secondary mortgage market, and these investors make their money on interest. Your local bank makes some money when they sell the loan, though. The lender essentially acts as a middleman between the borrower and the secondary mortgage market investor.</li>
+</ul>
 <p>Now, who are these big congressionally sa- <em>[Note: word splits across Track 47 and Track 48: &quot;sanctioned&quot;]</em></p>
                   </div>
                 </article>
@@ -1658,9 +2209,11 @@
                   
                   <div class="transcript-body">
                     <p>-nctioned corporations that make up the secondary market? Well, they are:</p>
-<p>- The <strong>Federal National Mortgage Association (FNMA)</strong>, and also known as <strong>Fannie Mae</strong></p>
-<p>- The <strong>Government National Mortgage Association (GNMA)</strong>, also known as <strong>Ginnie Mae</strong></p>
-<p>- And the <strong>Federal Home Loan Mortgage Corporation (FHLMC)</strong>, also known as <strong>Freddie Mac</strong>.</p>
+<ul>
+<li>The <strong>Federal National Mortgage Association (FNMA)</strong>, and also known as <strong>Fannie Mae</strong></li>
+<li>The <strong>Government National Mortgage Association (GNMA)</strong>, also known as <strong>Ginnie Mae</strong></li>
+<li>And the <strong>Federal Home Loan Mortgage Corporation (FHLMC)</strong>, also known as <strong>Freddie Mac</strong>.</li>
+</ul>
 <p>You might have to know the goofy little names, too, for the exam.</p>
 <p><strong>Discount points</strong>: A borrower pays discount points to obtain a lower-than-market rate of interest. How would a borrower avoid paying discount points? Accept a higher interest rate. How much is a discount point? 1% of the loan amount. What is it called when you pay discount points to get a lower interest rate? Buying down the interest rate.</p>
 <p>Now let&#x27;s talk about some mortgage loan clauses and characteristics.</p>
@@ -1678,7 +2231,7 @@
 <p>A <strong>defeasance clause</strong> in a mortgage loan states that when the mortgage is paid, the mortgagee&#x27;s claim stops or is defeated. Anything that is defeasible has the potential of being stopped, defeated.</p>
 <p>Some mortgage loans are <strong>open</strong>, which allows you to pay them off and save on interest, but there&#x27;s often a <strong>prepayment penalty clause</strong> that allows the lender to charge a penalty if the borrower pays the loan off too early.</p>
 <p>Residential mortgage loans, besides owner financing, can be <strong>conventional</strong>, or they can be insured or guaranteed by the federal government. <strong>FHA</strong> and <strong>VA</strong> loans are obtained at local lenders. Local lenders give the borrowers the money, but either FHA <strong>insures</strong> the loan and promises the lenders that they&#x27;ll not lose any principal or interest up to a certain amount, or VA <strong>guarantees</strong> the lender against such a loss of principal and interest. Both FHA and VA mortgage loans are assumable. VA sometimes provides mortgage moneys, but only in rare cases.</p>
-<p>There are several private companies that offer <strong>private mortgage insurance (PMI)</strong>. The buyer pays for this insurance, and since the lender is insured against loss, the lender could accept a lower down payment and still feel secure.</p>
+<p>There are several private companies that offer <strong>private mortgage insurance</strong> [PMI]. The buyer pays for this insurance, and since the lender is insured against loss, the lender could accept a lower down payment and still feel secure.</p>
 <p>If a borrower defaults on his or her mortgage loan contract, the lender can foreclose on the property. The property, again, is sold at the sheriff&#x27;s sale to pay the debt. The borrower is given a certain period of time before and even a period of time after the sale in which to redeem the property—to raise the money that they owed and stop the foreclosure action. The <strong>statutory redemption period</strong> is six months after the foreclosure auction, and 12 months if the property is zoned agricultural.</p>
 <p>A <strong>deed of trust</strong> is similar to a mortgage, except that a third party—someone called a trustee—actually holds title to the property until the debt is paid in full. We do not use deeds of trust here in Michigan.</p>
 <p>Now, you can finance property without a bank using <strong>owner or seller financing</strong>. As the term implies, this is when the seller participates in the financing. One of the most common is the <strong>land contract</strong>. The seller, called the vendee <em>[Note: speaker momentarily swaps &quot;vendee&quot; and &quot;vendor&quot; in this sentence, then immediately states the correct terms in the next sentence: seller = vendor, buyer = vendee]</em>, and the buyer, called the vendor, enter into an installment sales contract. There&#x27;s no bank involved; the buyer makes payments right to the seller. The seller, the <strong>vendor</strong>, usually retains the title to the property until the buyer, the <strong>vendee</strong>, has made all the payments. Then the seller transfers ownership to the buyer with the use of a deed. On your exam, they might call a land contract a <strong>contract for a deed</strong>.</p>
@@ -1711,8 +2264,10 @@
                   
                   <div class="transcript-body">
                     <p>-Truth in Lending Act, R, Real Estate Settlement Procedures Act, I, Integrated, and D, Disclosure—<strong>TRID</strong>. It&#x27;s an attempt to make disclosure of finance terms to be disclosed to the consumer in a more understandable fashion by replacing numerous federal disclosure documents with two easier-to-understand documents:</p>
-<p>- TRID replaced the Good Faith Estimate and Truth in Lending disclosures, and eliminated and combined them into a new single <strong>Loan Estimate form, or LE form</strong>.</p>
-<p>- The final Truth in Lending disclosure and the HUD-1 settlement statement have been replaced by the <strong>Closing Disclosure, or CD</strong>.</p>
+<ul>
+<li>TRID replaced the Good Faith Estimate and Truth in Lending disclosures, and eliminated and combined them into a new single <strong>Loan Estimate form, or LE form</strong>.</li>
+<li>The final Truth in Lending disclosure and the HUD-1 settlement statement have been replaced by the <strong>Closing Disclosure, or CD</strong>.</li>
+</ul>
 <p>Although we&#x27;ll touch on this a little bit later, the <strong>Equal Credit Opportunity Act</strong> is another federal law that regulates the banking industry. It&#x27;s kind of like a civil rights law for lenders. The ECOA, Equal Credit Opportunity Act, prohibits a lender from refusing a loan because of illegal discrimination. Basically, it states that if you&#x27;re turned down for a loan, it can&#x27;t be because of illegal discrimination, and the bank has to send you the reason why you were turned down in writing within 30 days. Equal Credit Opportunity Act.</p>
 <p>End of Lesson 7.</p>
                   </div>
@@ -1749,17 +2304,21 @@
                   <div class="transcript-body">
                     <p>Lesson 8, Civil Rights and Fair Housing. The issue of civil rights is an important one, both politically and personally. This recording, though, is a brief overview solely for the purposes of exam preparation.</p>
 <p>There are six civil rights laws we have to be familiar with for our exam: four federal laws and two state laws. On the federal level, we have:</p>
-<p>1. The <strong>Civil Rights Act of 1866</strong></p>
-<p>2. The <strong>Civil Rights Act of 1968</strong></p>
-<p>3. The <strong>Equal Credit Opportunity Act of &#x27;74</strong></p>
-<p>4. And the <strong>Americans with Disabilities Act of 1990</strong>.</p>
+<ol>
+<li>The <strong>Civil Rights Act of 1866</strong></li>
+<li>The <strong>Civil Rights Act of 1968</strong></li>
+<li>The <strong>Equal Credit Opportunity Act of &#x27;74</strong></li>
+<li>And the <strong>Americans with Disabilities Act of 1990</strong>.</li>
+</ol>
 <p>It&#x27;s important to understand that these laws do not prohibit discrimination; they define and prohibit <strong>illegal discrimination</strong>. Because you can discriminate in a transaction. For example, can a real estate company, seller, or landlord discriminate against somebody in a real estate transaction because of their financial status? Yeah. Can an apartment manager discriminate against somebody because they have pets? Yeah. Because they chew tobacco? Yeah. These are all examples of legal discrimination.</p>
 <p>So, what is illegal discrimination? Treating somebody differently in a transaction because they&#x27;re associated with the different civil rights laws&#x27; protected classes or protected group. Each civil rights law has a different list of protected criteria. You&#x27;ll need to be able to read a scenario and be able to know which civil rights laws it is or is not in violation of.</p>
 <p>There are four things we need to know about each law:</p>
-<p>1. We need to know its <strong>name</strong></p>
-<p>2. Its <strong>protected classes or criteria</strong></p>
-<p>3. Any <strong>exemptions</strong></p>
-<p>4. And the <strong>maximum fine</strong> for violating the law and what <strong>legal venues</strong> are available.</p>
+<ol>
+<li>We need to know its <strong>name</strong></li>
+<li>Its <strong>protected classes or criteria</strong></li>
+<li>Any <strong>exemptions</strong></li>
+<li>And the <strong>maximum fine</strong> for violating the law and what <strong>legal venues</strong> are available.</li>
+</ol>
 <p>One thing to remember is that there&#x27;s no jail time associated with any of these laws.</p>
 <p>Let&#x27;s do the federal laws first.</p>
 <p><strong>The Civil Rights Act of 1866</strong>: Passed on April 6, 1866, this federal law protects only one criteria: <strong>race</strong>, and race alone. If you were discriminated against due- <em>[Note: continues in Track 51]</em></p>
@@ -1788,27 +2347,35 @@
                   
                   <div class="transcript-body">
                     <p>-to your religion, then you&#x27;d have to find a different law to stand on. If someone violates this law, the court:</p>
-<p>- Could issue a restraining order to stop the sale or rental of the desired property to another</p>
-<p>- Could force the respondent to sell or rent the property to the complainant</p>
-<p>- Could charge the respondent damages, which are awarded to the complainant, also charge him or her court costs</p>
-<p>- Take other appropriate action to benefit the complainant.</p>
+<ul>
+<li>Could issue a restraining order to stop the sale or rental of the desired property to another</li>
+<li>Could force the respondent to sell or rent the property to the complainant</li>
+<li>Could charge the respondent damages, which are awarded to the complainant, also charge him or her court costs</li>
+<li>Take other appropriate action to benefit the complainant.</li>
+</ul>
 <p>One of the most striking characteristics of this law is that there&#x27;s <strong>no limit on the punitive damages</strong>, and the suit may be filed anytime within the individual state&#x27;s statute of limitations—in Michigan, this is <strong>two years</strong>. This is by far the easiest law to remember, in my opinion, because first, it&#x27;s from the 1800s, there&#x27;s no limit on financial damages, it covers discrimination based on race alone, and you&#x27;ve got two years from the date of the discriminatory act against you to file your complaint.</p>
 <p>Our next law is the <strong>Civil Rights Act of 1968</strong>. The first issue we need to discuss is the name of the law. Its actual name is the Civil Rights Act of 1968, but on the exam this may be referred to in a number of different ways. The particular portion of this law which addresses discrimination in housing is called <strong>Title VIII, the Fair Housing Act</strong>, and it&#x27;s a part of the Civil Rights Act of 1968. Additionally, the law was amended in <strong>1988</strong>. So this law may be referred to as the Civil Rights Act of 1968, or the Civil Rights Act of &#x27;68/&#x27;88, Title VIII, or the Fair Housing Act. So you got to be aware.</p>
 <p>This act goes beyond the Civil Rights Act of 1866 by expanding the number of protected criteria. You&#x27;ll remember the 1866 law only prohibited discrimination based on race. For the 1968 law, it&#x27;s a violation to discriminate when selling or renting most housing, as well as vacant land, on the basis of:</p>
-<p>- <strong>Race</strong></p>
-<p>- <strong>Color</strong></p>
-<p>- <strong>Religion</strong></p>
-<p>- <strong>Sex</strong></p>
-<p>- And <strong>National origin</strong>.</p>
+<ul>
+<li><strong>Race</strong></li>
+<li><strong>Color</strong></li>
+<li><strong>Religion</strong></li>
+<li><strong>Sex</strong></li>
+<li>And <strong>National origin</strong>.</li>
+</ul>
 <p>Now, it was amended in 1988 to include protection against discrimination based on:</p>
-<p>- <strong>Disability</strong></p>
-<p>- And <strong>Familial status</strong>. Familial status refers to households with children less than 18 years of age and pregnant women.</p>
+<ul>
+<li><strong>Disability</strong></li>
+<li>And <strong>Familial status</strong>. Familial status refers to households with children less than 18 years of age and pregnant women.</li>
+</ul>
 <p>The following are violations of the act:</p>
-<p>- Someone who refuses to sell, rent, or negotiate or deal with any person because of their association with the protected criteria</p>
-<p>- Someone who changes the terms or conditions for buying or renting real estate because of someone&#x27;s association with the protected criteria</p>
-<p>- Someone who discriminates by advertising housing as available only to certain persons</p>
-<p>- Someone who falsifies the availability of housing for inspection, sale, or lease</p>
-<p>- A c- <em>[Note: word splits across Track 51 and Track 52: &quot;commercial&quot;]</em></p>
+<ul>
+<li>Someone who refuses to sell, rent, or negotiate or deal with any person because of their association with the protected criteria</li>
+<li>Someone who changes the terms or conditions for buying or renting real estate because of someone&#x27;s association with the protected criteria</li>
+<li>Someone who discriminates by advertising housing as available only to certain persons</li>
+<li>Someone who falsifies the availability of housing for inspection, sale, or lease</li>
+<li>A c- <em>[Note: word splits across Track 51 and Track 52: &quot;commercial&quot;]</em></li>
+</ul>
                   </div>
                 </article>
                 
@@ -1834,15 +2401,19 @@
                   
                   <div class="transcript-body">
                     <p>-ommercial lender, such as a bank or savings and loan, or insurance company, presents different terms or conditions for home loans or denies such home loans</p>
-<p>- Also, if you restrict or prohibit the participation in any real estate services, such as broker organizations, multiple listing services, or other facilities related to the sale or rental of real estate</p>
-<p>- A licensee continues to solicit business after he or she has been asked by the owner to stop</p>
-<p>- Another violation of the &#x27;68 law is to give a minority buyer or seller less than favorable treatment by ignoring the customer or referring him or her to an agent of the same minority</p>
-<p>- If you fail to use your best efforts</p>
-<p>- If you do not submit or delay an offer, or induce a seller to reject an offer because of race, color, religion, sex, national origin, handicap, or familial status. This, too, would be a violation.</p>
+<ul>
+<li>Also, if you restrict or prohibit the participation in any real estate services, such as broker organizations, multiple listing services, or other facilities related to the sale or rental of real estate</li>
+<li>A licensee continues to solicit business after he or she has been asked by the owner to stop</li>
+<li>Another violation of the &#x27;68 law is to give a minority buyer or seller less than favorable treatment by ignoring the customer or referring him or her to an agent of the same minority</li>
+<li>If you fail to use your best efforts</li>
+<li>If you do not submit or delay an offer, or induce a seller to reject an offer because of race, color, religion, sex, national origin, handicap, or familial status. This, too, would be a violation.</li>
+</ul>
 <p>Although it may seem strange, there are <strong>exemptions</strong> from this law—actual situations which would allow someone to legally discriminate. These are very specific situations, though, and they <strong>never allow for discrimination based on race</strong>; the 1866 law trumps this one.</p>
 <p>One of the exemptions is <strong>senior housing</strong>. I mentioned that familial status means families with children less than 18 years of age and pregnant women. Even though it&#x27;s now illegal to discriminate on this basis, the law did incorporate exemptions for senior citizens&#x27; facilities, and there are two:</p>
-<p>1. First, housing intended for and solely occupied by persons <strong>62 years of age or older</strong> is exempt from the familial status prohibition against discrimination.</p>
-<p>2. Second, housing specially designed for older persons, if at least <strong>80% of the dwellings</strong> are occupied by at least one person <strong>55 years of age or older</strong>.</p>
+<ol>
+<li>First, housing intended for and solely occupied by persons <strong>62 years of age or older</strong> is exempt from the familial status prohibition against discrimination.</li>
+<li>Second, housing specially designed for older persons, if at least <strong>80% of the dwellings</strong> are occupied by at least one person <strong>55 years of age or older</strong>.</li>
+</ol>
 <p>The first one is far more strict; the second one is kind of like senior citizens lite. Now, in both of these exemptions, the owner, the landlord, can now say &quot;no kids.&quot; Normally you wouldn&#x27;t be able to because that&#x27;s a protected criteria, but this is an exemption, an exception.</p>
 <p>Yet another provision of the 1968 law is that it <strong>prohibits all discriminatory advertising</strong>. We just discussed some exemptions to the law; even if you are legally allowed to discriminate, you still can&#x27;t advertise it.</p>
 <p>You&#x27;re very likely on the exam to see a question concerning the three named forms of discrimination. They are <strong>blockbusting</strong>, <strong>steering</strong>, and <strong>redlining</strong>.</p>
@@ -1874,11 +2445,13 @@
                     <p>someone who threatens that the homogeneity, the oneness, of a neighborhood is going to change, and then profiting from that threat.</p>
 <p><strong>Steering</strong>: Steering is also a violation. Steering is the channeling of buyers and tenants to or away from certain areas. For example, a real estate agent met with a Polish couple that were looking for a home. The agent only told them about listings that were in the Polish community. This is illegal. Keep in mind, also, that <strong>positive discrimination</strong> can also be illegal. Imagine that this Polish couple comes into your office with a translator and says to you, &quot;Please, only show us listings in the Polish community.&quot; Well, we don&#x27;t know where the Polish community is. What we need is geography: where would you like to live? So even positive discrimination is illegal.</p>
 <p>Here are some additional exemptions from the law:</p>
-<p>- Renting rooms or units in an <strong>owner-occupied, multi-family dwelling designed for four or less families</strong>—that would be an exemption.</p>
-<p>- A <strong>religious organization</strong>, for other than a commercial purpose, limiting the sale, rental, or occupancy of dwellings to such persons of the same religion.</p>
-<p>- A <strong>private club</strong> that limits the rental or occupancy of lodgings to their own members, when such a club is operating for other than a commercial purpose, and obviously membership is not based on discrimination.</p>
+<ul>
+<li>Renting rooms or units in an <strong>owner-occupied, multi-family dwelling designed for four or less families</strong>—that would be an exemption.</li>
+<li>A <strong>religious organization</strong>, for other than a commercial purpose, limiting the sale, rental, or occupancy of dwellings to such persons of the same religion.</li>
+<li>A <strong>private club</strong> that limits the rental or occupancy of lodgings to their own members, when such a club is operating for other than a commercial purpose, and obviously membership is not based on discrimination.</li>
+</ul>
 <p><strong>Disabilities</strong>: The Civil Rights Act of 1968/&#x27;88 requires a landlord to allow a disabled person to make modifications to a unit or building at that tenant&#x27;s expense. For example, a person in a wheelchair can pay to have the doors widened or non-structural walls removed in order to have complete access to the interior of an apartment unit. The landlord can require the tenant to return the structure to its original condition at their expense when they leave.</p>
-<p>Now, someone who&#x27;s been discriminated against has <strong>one year</strong>—one year—to take their complaint to the <strong>Department of Housing and Urban Development (HUD)</strong>, and the maximum dollar fine for violating the Civil Rights Act of 1968 is <strong>$100,000</strong> for repeat offenders.</p>
+<p>Now, someone who&#x27;s been discriminated against has <strong>one year</strong>—one year—to take their complaint to the <strong>Department of Housing and Urban Development</strong> [HUD], and the maximum dollar fine for violating the Civil Rights Act of 1968 is <strong>$100,000</strong> for repeat offenders.</p>
 <p>Our third federal civil rights law is the <strong>Americans with Disabilities Act of 1990</strong>, commonly simply referred to as the <strong>ADA</strong>. Very important to this law is the actual definition of disability. Here&#x27;s what lawmakers came up with: A <strong>disability</strong> is any physical or mental impairment that substantially limits one or more of the major life activities of an individual. Okay, so what is a <strong>major life activity</strong>? Well, this is defined as such things as walking, talking, caring for oneself, seeing, hearing, breathing, speaking, learning, working, and participating in community activities.</p>
                   </div>
                 </article>
@@ -1934,23 +2507,29 @@
                   <div class="transcript-body">
                     <p>Many would still have to comply if they open their facilities to the general public.</p>
 <p>Here are some examples of discriminatory activity as defined by the ADA:</p>
-<p>- Denial of the right to fully and equally participate in and benefit from accommodations enjoyed by persons who are not disabled</p>
-<p>- Eligibility criteria which tends to screen out persons with disabilities—an example, a requirement that a driver&#x27;s license be displayed in order to buy goods or merchandise, because some handicapped individuals may not be able to drive</p>
-<p>- Failure to provide special arrangements for communicating with customers.</p>
+<ul>
+<li>Denial of the right to fully and equally participate in and benefit from accommodations enjoyed by persons who are not disabled</li>
+<li>Eligibility criteria which tends to screen out persons with disabilities—an example, a requirement that a driver&#x27;s license be displayed in order to buy goods or merchandise, because some handicapped individuals may not be able to drive</li>
+<li>Failure to provide special arrangements for communicating with customers.</li>
+</ul>
 <p>Penalties for violating the ADA include:</p>
-<p>- Injunctive relief to require equal access</p>
-<p>- Attorney fees, litigation costs, and related expenses are recoverable by the prevailing party</p>
-<p>- Financial penalty up to <strong>$50,000</strong> for the first violation and up to <strong>$100,000</strong> for subsequent violations, and also the requirement that the building comply</p>
-<p>- And an action may be filed either in state or federal court.</p>
-<p>Even though all the laws we&#x27;ve just talked about apply to lending institutions, Congress decided that we needed a special law just for lenders. So we have the <strong>Equal Credit Opportunity Act of 1974 (ECOA)</strong>, which makes it unlawful for any creditor to discriminate against any applicant with respect to any aspect of a credit transaction on the basis of:</p>
-<p>- <strong>Race</strong></p>
-<p>- <strong>Color</strong></p>
-<p>- <strong>Religion</strong></p>
-<p>- <strong>National origin</strong></p>
-<p>- <strong>Sex</strong></p>
-<p>- <strong>Marital status</strong></p>
-<p>- <strong>Age</strong></p>
-<p>- Or the fact that all or part of the applicant&#x27;s income derives from a <strong>public assistance program</strong>.</p>
+<ul>
+<li>Injunctive relief to require equal access</li>
+<li>Attorney fees, litigation costs, and related expenses are recoverable by the prevailing party</li>
+<li>Financial penalty up to <strong>$50,000</strong> for the first violation and up to <strong>$100,000</strong> for subsequent violations, and also the requirement that the building comply</li>
+<li>And an action may be filed either in state or federal court.</li>
+</ul>
+<p>Even though all the laws we&#x27;ve just talked about apply to lending institutions, Congress decided that we needed a special law just for lenders. So we have the <strong>Equal Credit Opportunity Act of 1974</strong> [ECOA], which makes it unlawful for any creditor to discriminate against any applicant with respect to any aspect of credit transaction on the basis of:</p>
+<ul>
+<li><strong>Race</strong></li>
+<li><strong>Color</strong></li>
+<li><strong>Religion</strong></li>
+<li><strong>National origin</strong></li>
+<li><strong>Sex</strong></li>
+<li><strong>Marital status</strong></li>
+<li><strong>Age</strong></li>
+<li>Or the fact that all or part of the applicant&#x27;s income derives from a <strong>public assistance program</strong>.</li>
+</ul>
 <p>The ECOA states that creditors must inform the candidate if they&#x27;ve been denied or granted credit within <strong>30 days</strong> of receiving the completed application in writing. Lenders are also required to give the specific reason or reasons why one is denied credit or granted credit in a way different from the terms under which they originally applied.</p>
 <p>Now let&#x27;s talk about Michigan&#x27;s civil rights laws. We have two, actually: we have the <strong>Elliott-Larsen Civil Rights Act</strong> and the <strong>Michigan Persons with Disabilities Civil Rights Act</strong>, both of <strong>1976</strong>. These laws are very similar to one another, to the point that we can review them as if they&#x27;re one. This is because they share many of the same exemptions, reporting, venue choices, and penalties for violations.</p>
                   </div>
@@ -1978,41 +2557,49 @@
                   <div class="track-note">[Note: Although indexed under Lesson 8 on the website, the second half of this track concludes Lesson 8 and begins Lesson 9: Taxes.]</div>
                   <div class="transcript-body">
                     <p>It&#x27;s a violation to discriminate against any person on the basis of:</p>
-<p>- <strong>Race</strong></p>
-<p>- <strong>Color</strong></p>
-<p>- <strong>Religion</strong></p>
-<p>- <strong>National origin</strong></p>
-<p>- <strong>Age</strong></p>
-<p>- <strong>Sex</strong></p>
-<p>- <strong>Marital status</strong></p>
-<p>- <strong>Familial status</strong></p>
-<p>- Or <strong>mental or physical disabilities</strong>.</p>
+<ul>
+<li><strong>Race</strong></li>
+<li><strong>Color</strong></li>
+<li><strong>Religion</strong></li>
+<li><strong>National origin</strong></li>
+<li><strong>Age</strong></li>
+<li><strong>Sex</strong></li>
+<li><strong>Marital status</strong></li>
+<li><strong>Familial status</strong></li>
+<li>Or <strong>mental or physical disabilities</strong>.</li>
+</ul>
 <p>There are three additional protected criteria, but these apply only to employment and not real estate transactions: they are <strong>height</strong> and <strong>weight</strong>, and to preserve the confidentiality of records regarding <strong>arrest or detention</strong> or other disposition in which a conviction does not result.</p>
 <p>Notice, though, that the Michigan laws protect two criteria that are not covered under the federal law: those are <strong>age</strong> and <strong>marital status</strong>.</p>
 <p>The Elliott-Larsen Civil Rights Act was modeled after the federal Civil Rights Act of 1968. The Michigan law has many of the same provisions, such as:</p>
-<p>- It&#x27;s a violation to refuse to negotiate with a person or engage in a real estate transaction</p>
-<p>- Discriminate in the terms or condition or privileges of real estate</p>
-<p>- It&#x27;s illegal to refuse to receive or fail to transmit an offer to rent or to purchase property</p>
-<p>- Represent that available property is not available for inspection, sale, lease</p>
-<p>- Failure to bring a property listing to a person&#x27;s attention</p>
-<p>- Refusal to permit a person to inspect property under reasonable conditions</p>
-<p>- It&#x27;s a violation to advertise directly or indirectly of an intent to make a limitation or discrimination</p>
-<p>- Use of an application form or making of a record of inquiry which indicates a person&#x27;s race, color, religion, national origin, age, sex, marital status, familial status, or mental and physical disability</p>
-<p>- It&#x27;s a violation to offer, solicit, accept, use, or retain a property listing with the understanding that discrimination may occur.</p>
+<ul>
+<li>It&#x27;s a violation to refuse to negotiate with a person or engage in a real estate transaction</li>
+<li>Discriminate in the terms or condition or privileges of real estate</li>
+<li>It&#x27;s illegal to refuse to receive or fail to transmit an offer to rent or to purchase property</li>
+<li>Represent that available property is not available for inspection, sale, lease</li>
+<li>Failure to bring a property listing to a person&#x27;s attention</li>
+<li>Refusal to permit a person to inspect property under reasonable conditions</li>
+<li>It&#x27;s a violation to advertise directly or indirectly of an intent to make a limitation or discrimination</li>
+<li>Use of an application form or making of a record of inquiry which indicates a person&#x27;s race, color, religion, national origin, age, sex, marital status, familial status, or mental and physical disability</li>
+<li>It&#x27;s a violation to offer, solicit, accept, use, or retain a property listing with the understanding that discrimination may occur.</li>
+</ul>
 <p>These laws also prohibit blockbusting and steering, like our federal law does. And like our federal laws, our two Michigan laws have exemptions, such as:</p>
-<p>1. The rental of a unit in a <strong>two-unit structure</strong> is exempt if one of the units is occupied by the owner or a member of the owner&#x27;s immediate family. You&#x27;ll remember that the federal law, for example, is exempt for a four-unit, so our state law is a little bit more strict—it&#x27;s only a two-unit.</p>
-<p>2. The rental of a <strong>room or rooms in a single-family dwelling</strong> by the owners or lessors is exempt if they or a member of their immediate family live there, and in this case immediate family means spouse, parent, child, or sibling.</p>
-<p>3. The rental of a <strong>housing unit for 12 months or less</strong> by the owner or lessor is exempt if it was occupied by him or her and maintained as his or her home for at least <strong>three months</strong> immediately before occupancy by the tenant, and is temporarily vacated while maintaining legal residency there, including subletting. Jeez. To simplify, these would be snowbirds. If you have two legitimate residences, one in Michigan and one in Florida, and you leave your Michigan residence to live in your Florida residence for a while, as long as you&#x27;re coming back to Michigan, while you&#x27;re gone you may lease your Michigan residence out and be exempt from complying with these laws.</p>
+<ol>
+<li>The rental of a unit in a <strong>two-unit structure</strong> is exempt if one of the units is occupied by the owner or a member of the owner&#x27;s immediate family. You&#x27;ll remember that the federal law, for example, is exempt for a four-unit, so our state law is a little bit more strict—it&#x27;s only a two-unit.</li>
+<li>The rental of a <strong>room or rooms in a single-family dwelling</strong> by the owners or lessors is exempt if they or a member of their immediate family live there, and in this case immediate family means spouse, parent, child, or sibling.</li>
+<li>The rental of a <strong>housing unit for 12 months or less</strong> by the owner or lessor is exempt if it was occupied by him or her and maintained as his or her home for at least <strong>three months</strong> immediately before occupancy by the tenant, and is temporarily vacated while maintaining legal residency there, including subletting. Jeez. To simplify, these would be snowbirds. If you have two legitimate residences, one in Michigan and one in Florida, and you leave your Michigan residence to live in your Florida residence for a while, as long as you&#x27;re coming back to Michigan, while you&#x27;re gone you may lease your Michigan residence out and be exempt from complying with these laws.</li>
+</ol>
 <p>Complainants have <strong>two years</strong> from the date of the alleged discriminatory action against them to take their case to <strong>state court</strong>, or <strong>six months</strong> to take their complaint to the <strong>Michigan Civil Rights Commission</strong>. And the Commission may employ a maximum of a <strong>$50,000</strong> fine.</p>
-<p>End of Lesson 8.</p>
+<p>End Lesson 8.</p>
 <p>Lesson 9, Taxes. We talk about three kinds of taxes in the salesperson&#x27;s exam: <strong>transfer taxes</strong>, <strong>real estate taxes</strong>, and <strong>income taxes</strong>.</p>
 <p><strong>Transfer taxes</strong> are paid by the seller of real estate. A seller must pay transfer tax if they want to record the deed. Transfer taxes are $3.75 per $500 of the selling price or fraction thereof. <em>[Note: In Lesson 5, Track 36, the speaker stated $4.30 per $500 ($3.75 state + $0.55 county = $4.30 total in Michigan); here in Lesson 9 he states $3.75 per $500, which is the Michigan state transfer tax rate.]</em> Remember, always round up.</p>
 <p><strong>Real estate taxes</strong>: The first step in calculating real estate taxes is to come up with the <strong>assessed value</strong>. To do that, you take the selling price and multiply that by the assessment; it&#x27;s a percentage. Taxes are then expressed as <strong>mills</strong>. A mill is one-tenth of one cent. You would write one mill as .001 of a dollar. The formula to calculate taxes is assessed value multiplied by the mills. That would give you your dollar amount in property taxes annually.</p>
 <p>Now, <strong>income taxes</strong>. Here are a few things that homeowners may deduct from their federal tax return:</p>
-<p>- <strong>Interest</strong>: Usually all of the interest paid on a loan, such as a mortgage or land contract, is deductible. This also includes <strong>points</strong> which are paid up front.</p>
-<p>- Also deductible is <strong>mortgage prepayment penalty</strong>; this is the amount that your lender may charge you if you pay your mortgage loan off before it&#x27;s due.</p>
-<p>- Also <strong>property taxes</strong>, such as county, city, state, school—these are very deductible.</p>
-<p>- We have something also called the <strong>in-home office deduction</strong>. The expense of an office in the home is deductible; there are many guidelines, though. The office must be used exclusively and on a regular basis as your principal place of business. The amount deducted from your home office expense must not exceed your gross income from that home office business.</p>
+<ul>
+<li><strong>Interest</strong>: Usually all of the interest paid on a loan, such as a mortgage or land contract, is deductible. This also includes <strong>points</strong> which are paid up front.</li>
+<li>Also deductible is <strong>mortgage prepayment penalty</strong>; this is the amount that your lender may charge you if you pay your mortgage loan off before it&#x27;s due.</li>
+<li>Also <strong>property taxes</strong>, such as county, city, state, school—these are very deductible.</li>
+<li>We have something also called the <strong>in-home office deduction</strong>. The expense of an office in the home is deductible; there are many guidelines, though. The office must be used exclusively and on a regular basis as your principal place of business. The amount deducted from your home office expense must not exceed your gross income from that home office business.</li>
+</ul>
 <p>Now, here is the process for calculating your income tax deductions: You add up all of your deductions for things like taxes and interest; you then multiply that by your <strong>tax bracket</strong>. Say, for example, you paid $9,000 in mortgage interest and then $900 in property taxes. You add them up, and that gets you $9,900. This is not the amount that you take off your tax bill, though. There&#x27;s one step you can&#x27;t forget to do: you add up the total amount of the deductions; the next step is to multiply that by your tax bracket. Let&#x27;s say you&#x27;re in the 35% tax bracket, so $9,900 multiplied by .35 gives you $3,465. That&#x27;s the amount you actually save; it saves you your tax bracket.</p>
 <p>In order to understand some of the most recent changes to our tax law, you need to understand the way things used to be. So let&#x27;s go back in time a bit. Many years ago, if you were to sell your principal residence and made a profit on that sale, then you were required to pay a separate tax called a <strong>capital gains tax</strong> on that profit amount—unless you used the profit amount to buy a house of equal or greater value. If you didn&#x27;t buy a house of equal or greater value with that money, then you could get charged a capital gains tax, which could be- <em>[Note: continues in Track 57]</em></p>
                   </div>
@@ -2048,7 +2635,7 @@
                   
                   <div class="transcript-body">
                     <p>-thousands of extra dollars in taxes. Then there was a rule called the <strong>once-in-a-lifetime exemption</strong>. Just once in your life, you could elect not to pay these capital gains taxes. This is a very archaic way to do things.</p>
-<p>Now we have a new way of doing things. This all ended with something called the <strong>universal exclusion</strong>. Effective May 7 of 1997, a person may elect to exclude up to <strong>$250,000</strong> of the gain on the sale of their principal residence—<strong>$500,000</strong> married filing jointly. In order to take advantage of the universal exclusion, the home must have been your principal residence for <strong>24 of the last 60 months</strong> <em>[Note: audio sounds like &quot;16 months&quot; or &quot;60 months&quot;, immediately clarified as &quot;two of the last five years&quot;]</em>, or <strong>two of the last five years</strong>, and it can be claimed <strong>once every two years</strong>—not just once in a lifetime anymore.</p>
+<p>Now we have a new way of doing things. This all ended with something called the <strong>universal exclusion</strong>. Effective May 7 of 1997, a person may elect to exclude up to <strong>$250,000</strong> of the gain on the sale of their principal residence—<strong>$500,000</strong> married filing jointly. In order to take advantage of the universal exclusion, the home must have been your principal residence for <strong>24 of the last 16 [60] months</strong> <em>[Note: speaker says &quot;16 months&quot; as a slip of the tongue for &quot;60 months&quot;, and immediately clarifies as &quot;two of the last five years&quot;]</em>, or <strong>two of the last five years</strong>, and it can be claimed <strong>once every two years</strong>—not just once in a lifetime anymore.</p>
 <p>Now, remember, please, this lesson is not to be taken as tax advice, for God&#x27;s sake. Please seek out a professional that knows what they&#x27;re doing.</p>
 <p>And with that, this is the end of Lesson 9 and the end of this recording.</p>
 <p>Copyright 2019, Holloway&#x27;s Real Estate Institute, all rights reserved. I&#x27;m Mike Holloway, thanks for listening.</p>

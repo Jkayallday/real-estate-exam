@@ -715,13 +715,13 @@
 - **Audio File**: `audio/Track46.mp3`
 - **Source URL**: `https://hollowaysinstitute.biz/wp-content/uploads/Track46.mp3`
 
-> -tail store owners sometimes use something called a **percentage lease**. A percentage lease usually charges the tenant an agreed-upon minimum rent, often based on square footage—so many dollars per month per square foot—and then a percentage of the gross sales.
+> -tail store owners sometimes use something called a **percentage lease**. A percentage lease usually charges the tenant an agreed-upon minimum rent, often based on square footage—with so many dollars per month per square foot—and then a percentage of the gross sales.
 >
 > Landlords who are concerned with increasing expenses on their rental properties may use a **graduated lease**. The rent increases by step-by-step installments as per the lease agreement. Both the tenant and the landlord know how much the rent's going to go up, and they're both in agreement with it. Let's say you sign a 10-year lease in a commercial situation with a tenant. For 10 years, you're probably going to want the rent to go up over the course of a decade, so you agree to this increase in advance with a graduated lease. What normally happens is you'll say, "Okay, every January 1st, the rent will increase 1.25%." Everybody agrees to it.
 >
 > There is another way, though, for landlords to deal with increases in expenses: they might use an **escalation clause** in a lease. An escalation clause in a lease agreement: if for some reason the landlord's expenses go up—with, say, a special assessment or increases in property taxes—the escalation clause would allow the rent to go up a certain amount. The amount is not a predetermined amount, and there are usually safeguards built into the lease agreement to limit the amount the rent can increase and for what reasons.
 >
-> Many retail companies want to design and build their own buildings to meet their needs, but don't want their money to be tied up in real estate because they need it to buy goods they sell—or buy the goods they sell. In this situation, they often use a **sale and leaseback**. The company has a building built where they want it and how they want it, but now they're out of money. And so they need to hire their initial employees and stock the shelves. So in other words, they need to find a way to extend their startup capital. Here's how a sale and leaseback works: The company finds a real estate investor and then sells them the brand-new building, and then takes back a long-term net lease. The money they get in the sale is used to hire employees and stock the shelves.
+> Many retail companies want to design and build their own buildings to meet their needs, but don't want their money to be tied up in real estate because they need it to buy goods they sell—or buy the goods they sell. In this situation, they often use a **sale and leaseback**. The company has a building built where they want it and how they want it, but now they're out of money. And so they need to hire their initial employees and stock the shelves. So in other words, they need to find a way to extend their startup capital. Here's how a sale and leaseback works: The company finds a real estate investor and then sells them the brand-new building, and then take back a long-term net lease. The money they get in the sale is used to hire employees and stock the shelves.
 >
 > If someone was a real estate investor and wanted to calculate what percentage of profit or loss that they made in an investment, it could be done like this: You could calculate the amo- *[Note: word splits across Track 46 and Track 47: "amount"]*
 
@@ -799,7 +799,7 @@
 >
 > Residential mortgage loans, besides owner financing, can be **conventional**, or they can be insured or guaranteed by the federal government. **FHA** and **VA** loans are obtained at local lenders. Local lenders give the borrowers the money, but either FHA **insures** the loan and promises the lenders that they'll not lose any principal or interest up to a certain amount, or VA **guarantees** the lender against such a loss of principal and interest. Both FHA and VA mortgage loans are assumable. VA sometimes provides mortgage moneys, but only in rare cases.
 >
-> There are several private companies that offer **private mortgage insurance (PMI)**. The buyer pays for this insurance, and since the lender is insured against loss, the lender could accept a lower down payment and still feel secure.
+> There are several private companies that offer **private mortgage insurance** [PMI]. The buyer pays for this insurance, and since the lender is insured against loss, the lender could accept a lower down payment and still feel secure.
 >
 > If a borrower defaults on his or her mortgage loan contract, the lender can foreclose on the property. The property, again, is sold at the sheriff's sale to pay the debt. The borrower is given a certain period of time before and even a period of time after the sale in which to redeem the property—to raise the money that they owed and stop the foreclosure action. The **statutory redemption period** is six months after the foreclosure auction, and 12 months if the property is zoned agricultural.
 >
@@ -941,7 +941,7 @@
 >
 > **Disabilities**: The Civil Rights Act of 1968/'88 requires a landlord to allow a disabled person to make modifications to a unit or building at that tenant's expense. For example, a person in a wheelchair can pay to have the doors widened or non-structural walls removed in order to have complete access to the interior of an apartment unit. The landlord can require the tenant to return the structure to its original condition at their expense when they leave.
 >
-> Now, someone who's been discriminated against has **one year**—one year—to take their complaint to the **Department of Housing and Urban Development (HUD)**, and the maximum dollar fine for violating the Civil Rights Act of 1968 is **$100,000** for repeat offenders.
+> Now, someone who's been discriminated against has **one year**—one year—to take their complaint to the **Department of Housing and Urban Development** [HUD], and the maximum dollar fine for violating the Civil Rights Act of 1968 is **$100,000** for repeat offenders.
 >
 > Our third federal civil rights law is the **Americans with Disabilities Act of 1990**, commonly simply referred to as the **ADA**. Very important to this law is the actual definition of disability. Here's what lawmakers came up with: A **disability** is any physical or mental impairment that substantially limits one or more of the major life activities of an individual. Okay, so what is a **major life activity**? Well, this is defined as such things as walking, talking, caring for oneself, seeing, hearing, breathing, speaking, learning, working, and participating in community activities.
 
@@ -978,7 +978,7 @@
 > - Financial penalty up to **$50,000** for the first violation and up to **$100,000** for subsequent violations, and also the requirement that the building comply
 > - And an action may be filed either in state or federal court.
 >
-> Even though all the laws we've just talked about apply to lending institutions, Congress decided that we needed a special law just for lenders. So we have the **Equal Credit Opportunity Act of 1974 (ECOA)**, which makes it unlawful for any creditor to discriminate against any applicant with respect to any aspect of a credit transaction on the basis of:
+> Even though all the laws we've just talked about apply to lending institutions, Congress decided that we needed a special law just for lenders. So we have the **Equal Credit Opportunity Act of 1974** [ECOA], which makes it unlawful for any creditor to discriminate against any applicant with respect to any aspect of credit transaction on the basis of:
 > - **Race**
 > - **Color**
 > - **Religion**
@@ -1032,7 +1032,7 @@
 >
 > Complainants have **two years** from the date of the alleged discriminatory action against them to take their case to **state court**, or **six months** to take their complaint to the **Michigan Civil Rights Commission**. And the Commission may employ a maximum of a **$50,000** fine.
 >
-> End of Lesson 8.
+> End Lesson 8.
 >
 > Lesson 9, Taxes. We talk about three kinds of taxes in the salesperson's exam: **transfer taxes**, **real estate taxes**, and **income taxes**.
 >
@@ -1062,7 +1062,7 @@
 
 > -thousands of extra dollars in taxes. Then there was a rule called the **once-in-a-lifetime exemption**. Just once in your life, you could elect not to pay these capital gains taxes. This is a very archaic way to do things.
 >
-> Now we have a new way of doing things. This all ended with something called the **universal exclusion**. Effective May 7 of 1997, a person may elect to exclude up to **$250,000** of the gain on the sale of their principal residence—**$500,000** married filing jointly. In order to take advantage of the universal exclusion, the home must have been your principal residence for **24 of the last 60 months** *[Note: audio sounds like "16 months" or "60 months", immediately clarified as "two of the last five years"]*, or **two of the last five years**, and it can be claimed **once every two years**—not just once in a lifetime anymore.
+> Now we have a new way of doing things. This all ended with something called the **universal exclusion**. Effective May 7 of 1997, a person may elect to exclude up to **$250,000** of the gain on the sale of their principal residence—**$500,000** married filing jointly. In order to take advantage of the universal exclusion, the home must have been your principal residence for **24 of the last 16 [60] months** *[Note: speaker says "16 months" as a slip of the tongue for "60 months", and immediately clarifies as "two of the last five years"]*, or **two of the last five years**, and it can be claimed **once every two years**—not just once in a lifetime anymore.
 >
 > Now, remember, please, this lesson is not to be taken as tax advice, for God's sake. Please seek out a professional that knows what they're doing.
 >
